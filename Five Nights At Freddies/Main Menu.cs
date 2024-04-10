@@ -39,29 +39,6 @@ namespace Five_Nights_At_Freddies
         {
 
         }
-
-        private void Main_Menu_KeyDown(object sender, KeyEventArgs e)
-        {
-            switch (e.KeyCode)
-            {
-                case Keys.Escape:
-                    label1.Text = $"button working";
-                    //Application.Exit();
-                    Exit = true;
-                    break;
-            }
-        }
-        private void Main_Menu_KeyUp(object sender, KeyEventArgs e)
-        {
-            switch (e.KeyCode)
-            {
-                case Keys.Escape:
-                    label1.Text = $"button up";
-                    break;
-            }   
-
-        }
-
         private void GameTimer_Tick(object sender, EventArgs e)
         {
             if (Exit == true)

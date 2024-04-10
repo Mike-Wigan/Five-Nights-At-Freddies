@@ -134,8 +134,6 @@
             this.DoubleBuffered = true;
             this.Name = "Main_Menu";
             this.Size = new System.Drawing.Size(948, 460);
-            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Main_Menu_KeyDown);
-            this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Main_Menu_KeyUp);
             this.ResumeLayout(false);
             this.PerformLayout();
 
