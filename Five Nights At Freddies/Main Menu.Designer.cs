@@ -130,6 +130,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.Continuebutton);
             this.Controls.Add(this.Newgamebutton);
+            this.Cursor = System.Windows.Forms.Cursors.Default;
             this.DoubleBuffered = true;
             this.Name = "Main_Menu";
             this.Size = new System.Drawing.Size(948, 460);
