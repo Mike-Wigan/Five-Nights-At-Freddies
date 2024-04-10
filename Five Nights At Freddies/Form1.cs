@@ -29,15 +29,17 @@ namespace Five_Nights_At_Freddies
 
 
             InitializeComponent();
+
+
             this.KeyPreview = true;
-            Form f = this.FindForm();
-            WindowState = FormWindowState.Maximized;
-            this.Size = Screen.PrimaryScreen.WorkingArea.Size;
-            Main_Menu mm = new Main_Menu(); ;
-            mm.Size = this.Size;
-            f.Controls.Add(mm);
-            mm.Focus();
-            f.Controls.Remove(this);
+            //Form f = this.FindForm();
+            //WindowState = FormWindowState.Maximized;
+            //this.Size = Screen.PrimaryScreen.WorkingArea.Size;
+            //Main_Menu mm = new Main_Menu(); ;
+            //mm.Size = this.Size;
+            //f.Controls.Add(mm);
+            //mm.Focus();
+            //f.Controls.Remove(this);
         }
 
         private void Form1_KeyDown(object sender, KeyEventArgs e)
@@ -49,6 +51,35 @@ namespace Five_Nights_At_Freddies
                     Close();
                     break;
             }
+        }
+        public static void ChangeScreen(object sender, UserControl next)
+        {
+            Form f;
+            if (sender is Form)
+            {
+                f = (Form)sender;
+            }
+            else
+            {
+                UserControl current = (UserControl)sender;
+
+                f = current.FindForm();
+
+                f.Controls.Remove(current);
+            }
+
+            f.Controls.Add(next);
+            next.Size = Screen.PrimaryScreen.WorkingArea.Size;
+            next.Focus();
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            Form1.ChangeScreen(this, new Main_Menu());
+            this.KeyPreview = true;
+            WindowState = FormWindowState.Maximized;
+            this.Size = Screen.PrimaryScreen.WorkingArea.Size;
         }
     }
 }

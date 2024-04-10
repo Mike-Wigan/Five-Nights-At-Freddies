@@ -15,6 +15,7 @@ namespace Five_Nights_At_Freddies
         public Game_screen()
         {
             InitializeComponent();
+            this.BackColor = Color.Black;
         }
     }
 }
