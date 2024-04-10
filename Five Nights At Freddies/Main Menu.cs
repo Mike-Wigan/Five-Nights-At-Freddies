@@ -12,7 +12,7 @@ namespace Five_Nights_At_Freddies
         public Main_Menu()
         {
             InitializeComponent();
-            this.KeyDown += new System.Windows.Forms.KeyEventHandler(Main_Meny_KeyDown);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(Main_Menu_KeyDown);
             this.BackColor = Color.Black;
             label1.Text = $"New Game";
             label2.Text = $"Continue";
