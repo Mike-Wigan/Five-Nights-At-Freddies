@@ -46,7 +46,7 @@
             this.Newgamebutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Newgamebutton.Font = new System.Drawing.Font("Verdana", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Newgamebutton.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.Newgamebutton.Location = new System.Drawing.Point(214, 123);
+            this.Newgamebutton.Location = new System.Drawing.Point(13, 148);
             this.Newgamebutton.Name = "Newgamebutton";
             this.Newgamebutton.Size = new System.Drawing.Size(153, 109);
             this.Newgamebutton.TabIndex = 0;
@@ -64,7 +64,7 @@
             this.Continuebutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Continuebutton.Font = new System.Drawing.Font("Verdana", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Continuebutton.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.Continuebutton.Location = new System.Drawing.Point(591, 243);
+            this.Continuebutton.Location = new System.Drawing.Point(32, 224);
             this.Continuebutton.Name = "Continuebutton";
             this.Continuebutton.Size = new System.Drawing.Size(75, 50);
             this.Continuebutton.TabIndex = 1;
@@ -78,7 +78,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Verdana", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label1.Location = new System.Drawing.Point(55, 96);
+            this.label1.Location = new System.Drawing.Point(34, 92);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(54, 31);
             this.label1.TabIndex = 2;
@@ -90,7 +90,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Verdana", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label2.Location = new System.Drawing.Point(376, 71);
+            this.label2.Location = new System.Drawing.Point(26, 123);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(88, 31);
             this.label2.TabIndex = 3;
@@ -124,7 +124,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
+            this.BackColor = System.Drawing.Color.Black;
             this.Controls.Add(this.Exitbutton);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);

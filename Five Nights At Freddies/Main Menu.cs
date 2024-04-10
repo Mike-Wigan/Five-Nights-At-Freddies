@@ -25,6 +25,8 @@ namespace Five_Nights_At_Freddies
             Continuebutton.Size = new System.Drawing.Size(200, 50);
             Newgamebutton.Location = new System.Drawing.Point(label1.Location.X - 50, label1.Location.Y - 13);
             Continuebutton.Location = new System.Drawing.Point(label2.Location.X - 50, label2.Location.Y - 13);
+            Newgamebutton.Enabled = true;
+            Continuebutton.Enabled = true;
 
         }
         private void Exitbutton_Click(object sender, EventArgs e)
@@ -33,7 +35,7 @@ namespace Five_Nights_At_Freddies
         }
         private void Newgamebutton_Click(object sender, EventArgs e)
         {
-
+            
         }
         private void Continuebutton_Click(object sender, EventArgs e)
         {
@@ -41,10 +43,7 @@ namespace Five_Nights_At_Freddies
         }
         private void GameTimer_Tick(object sender, EventArgs e)
         {
-            if (Exit == true)
-            {
-                Application.Exit();
-            }
+
         }
     }
 }
