@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Five_Nights_At_Freddies
 {
-    internal class Bonnie
+    internal class Bonny
     {
+        public Bonny(int _location, int _difficulty) 
+        { 
+
+        } 
     }
 }

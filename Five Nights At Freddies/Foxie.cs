@@ -8,5 +8,9 @@ namespace Five_Nights_At_Freddies
 {
     internal class Foxie
     {
+        public Foxie(int _foxTimer, int _difficulty)
+        {
+
+        }
     }
 }

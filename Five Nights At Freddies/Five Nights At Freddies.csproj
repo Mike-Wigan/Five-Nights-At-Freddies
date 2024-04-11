@@ -46,7 +46,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Bonnie.cs" />
+    <Compile Include="Bonny.cs" />
+    <Compile Include="CameraScreen.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CameraScreen.Designer.cs">
+      <DependentUpon>CameraScreen.cs</DependentUpon>
+    </Compile>
     <Compile Include="Chika.cs" />
     <Compile Include="death screen.cs">
       <SubType>UserControl</SubType>
@@ -76,8 +82,14 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CameraScreen.resx">
+      <DependentUpon>CameraScreen.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Game screen.resx">
+      <DependentUpon>Game screen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Main Menu.resx">
       <DependentUpon>Main Menu.cs</DependentUpon>
@@ -90,6 +102,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -103,6 +116,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fnaf camera image %3b%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fnaf camera image %3b%29 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fnaf camera image %3b%29 %282%29 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fnaf camera image %3b%29 %282%29 %281%29 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\output-onlinepngtools %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cam_Map.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cam_Map1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
