@@ -46,7 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Bonny.cs" />
+    <Compile Include="Bonnie.cs" />
     <Compile Include="Chika.cs" />
     <Compile Include="death screen.cs">
       <SubType>UserControl</SubType>
@@ -76,8 +76,14 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CameraScreen.resx">
+      <DependentUpon>CameraScreen.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Game screen.resx">
+      <DependentUpon>Game screen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Main Menu.resx">
       <DependentUpon>Main Menu.cs</DependentUpon>
@@ -104,57 +110,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\13.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\14.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\15.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\16.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\17.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\18.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\20.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\fnaf 1 death.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\fnaf 1 open.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\fnaf 1 paper.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\fnaf 1 termination.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\fnaf 1 2.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\fnaf 1 3.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\fnaf 1 4.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\fnaf 1 cheque 1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\fnaf 1 cheque 2.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\fnaf 1 1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -8,5 +8,9 @@ namespace Five_Nights_At_Freddies
 {
     internal class Freddie
     {
+        public Freddie(int _location, int _difficulty)
+        {
+
+        }
     }
 }

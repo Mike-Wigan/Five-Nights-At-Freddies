@@ -8,7 +8,6 @@ namespace Five_Nights_At_Freddies
 {
     public partial class Main_Menu : UserControl
     {
-        bool Exit = false;
         public Main_Menu()
         {
             InitializeComponent();
@@ -43,7 +42,10 @@ namespace Five_Nights_At_Freddies
         }
         private void GameTimer_Tick(object sender, EventArgs e)
         {
-
+            if (Exit == true)
+            {
+                Application.Exit();
+            }
         }
     }
 }
