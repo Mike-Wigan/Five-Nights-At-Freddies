@@ -35,7 +35,7 @@ namespace Five_Nights_At_Freddies
         }
         private void Newgamebutton_Click(object sender, EventArgs e)
         {
-            
+
         }
         private void Continuebutton_Click(object sender, EventArgs e)
         {
