@@ -46,7 +46,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Bonnie.cs" />
     <Compile Include="Chika.cs" />
     <Compile Include="death screen.cs">
       <SubType>UserControl</SubType>

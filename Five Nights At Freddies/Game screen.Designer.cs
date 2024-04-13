@@ -40,7 +40,7 @@
             // 
             // cameraButton
             // 
-            this.cameraButton.BackgroundImage = global::Five_Nights_At_Freddies.Properties.Resources.output_onlinepngtools__1_;
+            //this.cameraButton.BackgroundImage = global::Five_Nights_At_Freddies.Properties.Resources.output_onlinepngtools__1_;
             this.cameraButton.FlatAppearance.BorderSize = 0;
             this.cameraButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
             this.cameraButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
