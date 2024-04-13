@@ -37,6 +37,7 @@ namespace Five_Nights_At_Freddies
         private void cameraTimer_Tick(object sender, EventArgs e)
         {
             cameraButton.Enabled = true;
+            cameraButton.Enabled = true;
         }
     }
 }
