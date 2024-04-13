@@ -28,7 +28,6 @@ namespace Five_Nights_At_Freddies
         }
         private void cameraButton_MouseHover(object sender, EventArgs e)
         {
-            Form1.ChangeScreen(this, new CameraScreen());
             cameraButton.Enabled = false;
         }
 

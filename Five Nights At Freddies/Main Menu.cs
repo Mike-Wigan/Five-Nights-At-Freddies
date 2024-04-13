@@ -34,7 +34,7 @@ namespace Five_Nights_At_Freddies
         }
         private void Newgamebutton_Click(object sender, EventArgs e)
         {
-
+            Form1.ChangeScreen(this, new Game_screen());
         }
         private void Continuebutton_Click(object sender, EventArgs e)
         {
@@ -42,10 +42,7 @@ namespace Five_Nights_At_Freddies
         }
         private void GameTimer_Tick(object sender, EventArgs e)
         {
-            if (Exit == true)
-            {
-                Application.Exit();
-            }
+
         }
     }
 }
