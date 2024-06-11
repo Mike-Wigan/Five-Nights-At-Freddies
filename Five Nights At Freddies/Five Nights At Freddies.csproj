@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="camscreen.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="camscreen.Designer.cs">
+      <DependentUpon>camscreen.cs</DependentUpon>
+    </Compile>
     <Compile Include="Chika.cs" />
     <Compile Include="death screen.cs">
       <SubType>UserControl</SubType>
@@ -75,8 +81,8 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="CameraScreen.resx">
-      <DependentUpon>CameraScreen.cs</DependentUpon>
+    <EmbeddedResource Include="camscreen.resx">
+      <DependentUpon>camscreen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -109,6 +115,309 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unnamed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cam_Map1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cam_Map.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PC Computer - Five Nights at Freddys - Camera UI and HUD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fnaf 1 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fnaf 1 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fnaf 1 3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fnaf 1 4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fnaf 1 cheque 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fnaf 1 cheque 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fnaf 1 death.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fnaf 1 paper.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fnaf 1 termination.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\foxy running page.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PC Computer - Five Nights at Freddys - Static.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\static 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\static 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\static 3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\static 4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\static 5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\static 6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\static 7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\luxa.org-opacity-changed-static 3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\luxa.org-opacity-changed-static 4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\luxa.org-opacity-changed-static 5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\luxa.org-opacity-changed-static 6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\luxa.org-opacity-changed-static 7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\luxa.org-opacity-changed-static 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\luxa.org-opacity-changed-static 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\luxa.org-opacity-changed-static 1 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\luxa.org-opacity-changed-static 2 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\luxa.org-opacity-changed-static 3 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\luxa.org-opacity-changed-static 4 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\luxa.org-opacity-changed-static 5 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\luxa.org-opacity-changed-static 6 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\luxa.org-opacity-changed-static 7 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\luxa.org-opacity-changed-static 1 %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\luxa.org-opacity-changed-static 2 %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\luxa.org-opacity-changed-static 3 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\luxa.org-opacity-changed-static 4 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\luxa.org-opacity-changed-static 5 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\luxa.org-opacity-changed-static 6 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\luxa.org-opacity-changed-static 7 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PC Computer - Five Nights at Freddys - Dining Area.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\office bonnie.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\office chika.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\office empty.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\office freddie.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\office left light.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\office lights off.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\office right light.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\camflip 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\camflip 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\camflip 3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\camflip 4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\camflip 5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\camflip 7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\camflip 8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\camflip 9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\camflip 10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\camflip 11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\camflip 6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cam 1A all.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cam 1A bonnie and chika.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cam 1A bonnie.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cam 1A chika.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cam 1A none.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PC Computer - Five Nights at Freddys - Camera UI and HUD %281%29 - Copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1A all.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1A bonnie and chika.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1A bonnie.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1A chika.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1A none.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1B bonnie.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1B chika.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1B freddie.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1B none.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1C 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1C 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1C 3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1C 4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1C 5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2B bonnie.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2B none.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3 bonnie.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3 none.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4A chika.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4A freddie.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4B chika.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4B freddie.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4B none.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5 bonnie 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5 bonnie.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5 none.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7 chika.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7 freddie.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backstage 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cam 4A.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cam 7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4Anone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7none.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
