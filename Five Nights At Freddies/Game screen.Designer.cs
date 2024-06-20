@@ -31,20 +31,25 @@
             this.components = new System.ComponentModel.Container();
             this.gameTimer = new System.Windows.Forms.Timer(this.components);
             this.cameraButton = new System.Windows.Forms.Button();
-            this.leftsidelabel = new System.Windows.Forms.Label();
-            this.rightsidelabel = new System.Windows.Forms.Label();
             this.camflip = new System.Windows.Forms.Timer(this.components);
-            this.cam1Abutton = new System.Windows.Forms.Label();
-            this.cam1Bbutton = new System.Windows.Forms.Label();
-            this.cam7button = new System.Windows.Forms.Label();
-            this.cam6button = new System.Windows.Forms.Label();
-            this.cam3button = new System.Windows.Forms.Label();
-            this.cam4Abutton = new System.Windows.Forms.Label();
-            this.cam4Bbutton = new System.Windows.Forms.Label();
-            this.cam1Cbutton = new System.Windows.Forms.Label();
-            this.cam2Abutton = new System.Windows.Forms.Label();
-            this.cam2Bbutton = new System.Windows.Forms.Label();
-            this.cam5button = new System.Windows.Forms.Label();
+            this.cam1Abutton = new System.Windows.Forms.Button();
+            this.cam1Bbutton = new System.Windows.Forms.Button();
+            this.cam1Cbutton = new System.Windows.Forms.Button();
+            this.cam2Abutton = new System.Windows.Forms.Button();
+            this.cam2Bbutton = new System.Windows.Forms.Button();
+            this.cam3button = new System.Windows.Forms.Button();
+            this.cam4Abutton = new System.Windows.Forms.Button();
+            this.cam4Bbutton = new System.Windows.Forms.Button();
+            this.cam5button = new System.Windows.Forms.Button();
+            this.cam6button = new System.Windows.Forms.Button();
+            this.cam7button = new System.Windows.Forms.Button();
+            this.test1 = new System.Windows.Forms.Label();
+            this.test2 = new System.Windows.Forms.Label();
+            this.leftlightbutton = new System.Windows.Forms.Button();
+            this.rightlightbutton = new System.Windows.Forms.Button();
+            this.leftdoorbutton = new System.Windows.Forms.Button();
+            this.rightdoorbutton = new System.Windows.Forms.Button();
+            this.gameoverlabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // gameTimer
@@ -54,40 +59,18 @@
             // 
             // cameraButton
             // 
-            this.cameraButton.BackColor = System.Drawing.Color.White;
+            this.cameraButton.BackColor = System.Drawing.Color.WhiteSmoke;
             this.cameraButton.FlatAppearance.BorderSize = 0;
-            this.cameraButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.cameraButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.cameraButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.cameraButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cameraButton.ForeColor = System.Drawing.Color.Transparent;
-            this.cameraButton.Location = new System.Drawing.Point(396, 302);
-            this.cameraButton.Margin = new System.Windows.Forms.Padding(4);
+            this.cameraButton.Location = new System.Drawing.Point(297, 245);
             this.cameraButton.Name = "cameraButton";
-            this.cameraButton.Size = new System.Drawing.Size(212, 30);
+            this.cameraButton.Size = new System.Drawing.Size(159, 24);
             this.cameraButton.TabIndex = 0;
             this.cameraButton.UseVisualStyleBackColor = false;
             this.cameraButton.MouseEnter += new System.EventHandler(this.cameraButton_MouseEnter);
-            this.cameraButton.MouseLeave += new System.EventHandler(this.cameraButton_MouseLeave);
-            // 
-            // leftsidelabel
-            // 
-            this.leftsidelabel.BackColor = System.Drawing.Color.White;
-            this.leftsidelabel.ForeColor = System.Drawing.Color.Transparent;
-            this.leftsidelabel.Location = new System.Drawing.Point(184, 284);
-            this.leftsidelabel.Name = "leftsidelabel";
-            this.leftsidelabel.Size = new System.Drawing.Size(100, 23);
-            this.leftsidelabel.TabIndex = 1;
-            this.leftsidelabel.Text = "label1";
-            this.leftsidelabel.MouseEnter += new System.EventHandler(this.leftsidelabel_MouseEnter);
-            // 
-            // rightsidelabel
-            // 
-            this.rightsidelabel.BackColor = System.Drawing.Color.White;
-            this.rightsidelabel.Location = new System.Drawing.Point(748, 203);
-            this.rightsidelabel.Name = "rightsidelabel";
-            this.rightsidelabel.Size = new System.Drawing.Size(100, 23);
-            this.rightsidelabel.TabIndex = 2;
-            this.rightsidelabel.Text = "label2";
-            this.rightsidelabel.MouseEnter += new System.EventHandler(this.rightsidelabel_MouseEnter);
             // 
             // camflip
             // 
@@ -96,128 +79,327 @@
             // 
             // cam1Abutton
             // 
-            this.cam1Abutton.BackColor = System.Drawing.Color.White;
-            this.cam1Abutton.Location = new System.Drawing.Point(224, 384);
+            this.cam1Abutton.BackColor = System.Drawing.Color.DarkGray;
+            this.cam1Abutton.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.cam1Abutton.FlatAppearance.BorderSize = 3;
+            this.cam1Abutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cam1Abutton.Font = new System.Drawing.Font("Nirmala UI", 7.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cam1Abutton.Location = new System.Drawing.Point(168, 291);
+            this.cam1Abutton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cam1Abutton.Name = "cam1Abutton";
-            this.cam1Abutton.Size = new System.Drawing.Size(100, 23);
-            this.cam1Abutton.TabIndex = 3;
-            this.cam1Abutton.Text = "label2";
+            this.cam1Abutton.Size = new System.Drawing.Size(56, 19);
+            this.cam1Abutton.TabIndex = 14;
+            this.cam1Abutton.Text = "button1";
+            this.cam1Abutton.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.cam1Abutton.UseVisualStyleBackColor = false;
+            this.cam1Abutton.Click += new System.EventHandler(this.cam1Abutton_Click);
             // 
             // cam1Bbutton
             // 
-            this.cam1Bbutton.BackColor = System.Drawing.Color.White;
-            this.cam1Bbutton.Location = new System.Drawing.Point(224, 462);
+            this.cam1Bbutton.BackColor = System.Drawing.Color.DarkGray;
+            this.cam1Bbutton.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.cam1Bbutton.FlatAppearance.BorderSize = 3;
+            this.cam1Bbutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cam1Bbutton.Font = new System.Drawing.Font("Nirmala UI", 7.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cam1Bbutton.Location = new System.Drawing.Point(168, 354);
+            this.cam1Bbutton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cam1Bbutton.Name = "cam1Bbutton";
-            this.cam1Bbutton.Size = new System.Drawing.Size(100, 23);
-            this.cam1Bbutton.TabIndex = 4;
-            this.cam1Bbutton.Text = "label2";
-            // 
-            // cam7button
-            // 
-            this.cam7button.BackColor = System.Drawing.Color.White;
-            this.cam7button.Location = new System.Drawing.Point(670, 462);
-            this.cam7button.Name = "cam7button";
-            this.cam7button.Size = new System.Drawing.Size(100, 23);
-            this.cam7button.TabIndex = 5;
-            this.cam7button.Text = "label2";
-            // 
-            // cam6button
-            // 
-            this.cam6button.BackColor = System.Drawing.Color.White;
-            this.cam6button.Location = new System.Drawing.Point(670, 407);
-            this.cam6button.Name = "cam6button";
-            this.cam6button.Size = new System.Drawing.Size(100, 23);
-            this.cam6button.TabIndex = 6;
-            this.cam6button.Text = "label2";
-            // 
-            // cam3button
-            // 
-            this.cam3button.BackColor = System.Drawing.Color.White;
-            this.cam3button.Location = new System.Drawing.Point(383, 528);
-            this.cam3button.Name = "cam3button";
-            this.cam3button.Size = new System.Drawing.Size(100, 23);
-            this.cam3button.TabIndex = 7;
-            this.cam3button.Text = "label2";
-            // 
-            // cam4Abutton
-            // 
-            this.cam4Abutton.BackColor = System.Drawing.Color.White;
-            this.cam4Abutton.Location = new System.Drawing.Point(538, 384);
-            this.cam4Abutton.Name = "cam4Abutton";
-            this.cam4Abutton.Size = new System.Drawing.Size(100, 23);
-            this.cam4Abutton.TabIndex = 8;
-            this.cam4Abutton.Text = "label2";
-            // 
-            // cam4Bbutton
-            // 
-            this.cam4Bbutton.BackColor = System.Drawing.Color.White;
-            this.cam4Bbutton.Location = new System.Drawing.Point(538, 462);
-            this.cam4Bbutton.Name = "cam4Bbutton";
-            this.cam4Bbutton.Size = new System.Drawing.Size(100, 23);
-            this.cam4Bbutton.TabIndex = 9;
-            this.cam4Bbutton.Text = "label2";
+            this.cam1Bbutton.Size = new System.Drawing.Size(56, 19);
+            this.cam1Bbutton.TabIndex = 15;
+            this.cam1Bbutton.Text = "button2";
+            this.cam1Bbutton.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.cam1Bbutton.UseVisualStyleBackColor = false;
+            this.cam1Bbutton.Click += new System.EventHandler(this.cam1Bbutton_Click);
             // 
             // cam1Cbutton
             // 
-            this.cam1Cbutton.BackColor = System.Drawing.Color.White;
-            this.cam1Cbutton.Location = new System.Drawing.Point(224, 528);
+            this.cam1Cbutton.BackColor = System.Drawing.Color.DarkGray;
+            this.cam1Cbutton.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.cam1Cbutton.FlatAppearance.BorderSize = 3;
+            this.cam1Cbutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cam1Cbutton.Font = new System.Drawing.Font("Nirmala UI", 7.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cam1Cbutton.Location = new System.Drawing.Point(168, 408);
+            this.cam1Cbutton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cam1Cbutton.Name = "cam1Cbutton";
-            this.cam1Cbutton.Size = new System.Drawing.Size(100, 23);
-            this.cam1Cbutton.TabIndex = 10;
-            this.cam1Cbutton.Text = "label2";
+            this.cam1Cbutton.Size = new System.Drawing.Size(56, 19);
+            this.cam1Cbutton.TabIndex = 16;
+            this.cam1Cbutton.Text = "button2";
+            this.cam1Cbutton.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.cam1Cbutton.UseVisualStyleBackColor = false;
+            this.cam1Cbutton.Click += new System.EventHandler(this.cam1Cbutton_Click);
             // 
             // cam2Abutton
             // 
-            this.cam2Abutton.BackColor = System.Drawing.Color.White;
-            this.cam2Abutton.Location = new System.Drawing.Point(383, 384);
+            this.cam2Abutton.BackColor = System.Drawing.Color.DarkGray;
+            this.cam2Abutton.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.cam2Abutton.FlatAppearance.BorderSize = 3;
+            this.cam2Abutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cam2Abutton.Font = new System.Drawing.Font("Nirmala UI", 7.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cam2Abutton.Location = new System.Drawing.Point(287, 291);
+            this.cam2Abutton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cam2Abutton.Name = "cam2Abutton";
-            this.cam2Abutton.Size = new System.Drawing.Size(100, 23);
-            this.cam2Abutton.TabIndex = 11;
-            this.cam2Abutton.Text = "label2";
+            this.cam2Abutton.Size = new System.Drawing.Size(56, 19);
+            this.cam2Abutton.TabIndex = 17;
+            this.cam2Abutton.Text = "button2";
+            this.cam2Abutton.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.cam2Abutton.UseVisualStyleBackColor = false;
+            this.cam2Abutton.Click += new System.EventHandler(this.cam2Abutton_Click);
             // 
             // cam2Bbutton
             // 
-            this.cam2Bbutton.BackColor = System.Drawing.Color.White;
-            this.cam2Bbutton.Location = new System.Drawing.Point(383, 462);
+            this.cam2Bbutton.BackColor = System.Drawing.Color.DarkGray;
+            this.cam2Bbutton.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.cam2Bbutton.FlatAppearance.BorderSize = 3;
+            this.cam2Bbutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cam2Bbutton.Font = new System.Drawing.Font("Nirmala UI", 7.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cam2Bbutton.Location = new System.Drawing.Point(287, 354);
+            this.cam2Bbutton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cam2Bbutton.Name = "cam2Bbutton";
-            this.cam2Bbutton.Size = new System.Drawing.Size(100, 23);
-            this.cam2Bbutton.TabIndex = 12;
-            this.cam2Bbutton.Text = "label2";
+            this.cam2Bbutton.Size = new System.Drawing.Size(56, 19);
+            this.cam2Bbutton.TabIndex = 18;
+            this.cam2Bbutton.Text = "button2";
+            this.cam2Bbutton.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.cam2Bbutton.UseVisualStyleBackColor = false;
+            this.cam2Bbutton.Click += new System.EventHandler(this.cam2Bbutton_Click);
+            // 
+            // cam3button
+            // 
+            this.cam3button.BackColor = System.Drawing.Color.DarkGray;
+            this.cam3button.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.cam3button.FlatAppearance.BorderSize = 3;
+            this.cam3button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cam3button.Font = new System.Drawing.Font("Nirmala UI", 7.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cam3button.Location = new System.Drawing.Point(287, 408);
+            this.cam3button.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cam3button.Name = "cam3button";
+            this.cam3button.Size = new System.Drawing.Size(56, 19);
+            this.cam3button.TabIndex = 19;
+            this.cam3button.Text = "button2";
+            this.cam3button.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.cam3button.UseVisualStyleBackColor = false;
+            this.cam3button.Click += new System.EventHandler(this.cam3button_Click);
+            // 
+            // cam4Abutton
+            // 
+            this.cam4Abutton.BackColor = System.Drawing.Color.DarkGray;
+            this.cam4Abutton.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.cam4Abutton.FlatAppearance.BorderSize = 3;
+            this.cam4Abutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cam4Abutton.Font = new System.Drawing.Font("Nirmala UI", 7.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cam4Abutton.Location = new System.Drawing.Point(400, 291);
+            this.cam4Abutton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cam4Abutton.Name = "cam4Abutton";
+            this.cam4Abutton.Size = new System.Drawing.Size(56, 19);
+            this.cam4Abutton.TabIndex = 20;
+            this.cam4Abutton.Text = "button2";
+            this.cam4Abutton.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.cam4Abutton.UseVisualStyleBackColor = false;
+            this.cam4Abutton.Click += new System.EventHandler(this.cam4Abutton_Click);
+            // 
+            // cam4Bbutton
+            // 
+            this.cam4Bbutton.BackColor = System.Drawing.Color.DarkGray;
+            this.cam4Bbutton.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.cam4Bbutton.FlatAppearance.BorderSize = 3;
+            this.cam4Bbutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cam4Bbutton.Font = new System.Drawing.Font("Nirmala UI", 7.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cam4Bbutton.Location = new System.Drawing.Point(404, 354);
+            this.cam4Bbutton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cam4Bbutton.Name = "cam4Bbutton";
+            this.cam4Bbutton.Size = new System.Drawing.Size(56, 19);
+            this.cam4Bbutton.TabIndex = 21;
+            this.cam4Bbutton.Text = "button2";
+            this.cam4Bbutton.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.cam4Bbutton.UseVisualStyleBackColor = false;
+            this.cam4Bbutton.Click += new System.EventHandler(this.cam4Bbutton_Click);
             // 
             // cam5button
             // 
-            this.cam5button.BackColor = System.Drawing.Color.White;
-            this.cam5button.Location = new System.Drawing.Point(538, 528);
+            this.cam5button.BackColor = System.Drawing.Color.DarkGray;
+            this.cam5button.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.cam5button.FlatAppearance.BorderSize = 3;
+            this.cam5button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cam5button.Font = new System.Drawing.Font("Nirmala UI", 7.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cam5button.Location = new System.Drawing.Point(404, 408);
+            this.cam5button.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cam5button.Name = "cam5button";
-            this.cam5button.Size = new System.Drawing.Size(100, 23);
-            this.cam5button.TabIndex = 13;
-            this.cam5button.Text = "label2";
+            this.cam5button.Size = new System.Drawing.Size(56, 19);
+            this.cam5button.TabIndex = 22;
+            this.cam5button.Text = "button2";
+            this.cam5button.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.cam5button.UseVisualStyleBackColor = false;
+            this.cam5button.Click += new System.EventHandler(this.cam5button_Click);
+            // 
+            // cam6button
+            // 
+            this.cam6button.BackColor = System.Drawing.Color.DarkGray;
+            this.cam6button.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.cam6button.FlatAppearance.BorderSize = 3;
+            this.cam6button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cam6button.Font = new System.Drawing.Font("Nirmala UI", 7.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cam6button.Location = new System.Drawing.Point(502, 291);
+            this.cam6button.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cam6button.Name = "cam6button";
+            this.cam6button.Size = new System.Drawing.Size(56, 19);
+            this.cam6button.TabIndex = 23;
+            this.cam6button.Text = "button2";
+            this.cam6button.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.cam6button.UseVisualStyleBackColor = false;
+            this.cam6button.Click += new System.EventHandler(this.cam6button_Click);
+            // 
+            // cam7button
+            // 
+            this.cam7button.BackColor = System.Drawing.Color.DarkGray;
+            this.cam7button.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.cam7button.FlatAppearance.BorderSize = 3;
+            this.cam7button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cam7button.Font = new System.Drawing.Font("Nirmala UI", 7.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cam7button.Location = new System.Drawing.Point(502, 352);
+            this.cam7button.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cam7button.Name = "cam7button";
+            this.cam7button.Size = new System.Drawing.Size(56, 19);
+            this.cam7button.TabIndex = 24;
+            this.cam7button.Text = "button2";
+            this.cam7button.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.cam7button.UseVisualStyleBackColor = false;
+            this.cam7button.Click += new System.EventHandler(this.cam7button_Click);
+            // 
+            // test1
+            // 
+            this.test1.AutoSize = true;
+            this.test1.BackColor = System.Drawing.Color.White;
+            this.test1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.test1.ForeColor = System.Drawing.Color.Red;
+            this.test1.Location = new System.Drawing.Point(256, 60);
+            this.test1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.test1.Name = "test1";
+            this.test1.Size = new System.Drawing.Size(70, 26);
+            this.test1.TabIndex = 25;
+            this.test1.Text = "label1";
+            // 
+            // test2
+            // 
+            this.test2.AutoSize = true;
+            this.test2.BackColor = System.Drawing.Color.White;
+            this.test2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.test2.ForeColor = System.Drawing.Color.Red;
+            this.test2.Location = new System.Drawing.Point(418, 60);
+            this.test2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.test2.Name = "test2";
+            this.test2.Size = new System.Drawing.Size(70, 26);
+            this.test2.TabIndex = 26;
+            this.test2.Text = "label2";
+            // 
+            // leftlightbutton
+            // 
+            this.leftlightbutton.BackColor = System.Drawing.Color.White;
+            this.leftlightbutton.FlatAppearance.BorderSize = 0;
+            this.leftlightbutton.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
+            this.leftlightbutton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.leftlightbutton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.leftlightbutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.leftlightbutton.ForeColor = System.Drawing.Color.Transparent;
+            this.leftlightbutton.Location = new System.Drawing.Point(297, 145);
+            this.leftlightbutton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.leftlightbutton.Name = "leftlightbutton";
+            this.leftlightbutton.Size = new System.Drawing.Size(56, 19);
+            this.leftlightbutton.TabIndex = 27;
+            this.leftlightbutton.UseVisualStyleBackColor = false;
+            this.leftlightbutton.Click += new System.EventHandler(this.leftlightbutton_Click);
+            // 
+            // rightlightbutton
+            // 
+            this.rightlightbutton.BackColor = System.Drawing.Color.White;
+            this.rightlightbutton.FlatAppearance.BorderSize = 0;
+            this.rightlightbutton.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
+            this.rightlightbutton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.rightlightbutton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.rightlightbutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rightlightbutton.ForeColor = System.Drawing.Color.Transparent;
+            this.rightlightbutton.Location = new System.Drawing.Point(404, 145);
+            this.rightlightbutton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.rightlightbutton.Name = "rightlightbutton";
+            this.rightlightbutton.Size = new System.Drawing.Size(56, 19);
+            this.rightlightbutton.TabIndex = 28;
+            this.rightlightbutton.UseVisualStyleBackColor = false;
+            this.rightlightbutton.Click += new System.EventHandler(this.rightlightbutton_Click);
+            // 
+            // leftdoorbutton
+            // 
+            this.leftdoorbutton.BackColor = System.Drawing.Color.White;
+            this.leftdoorbutton.FlatAppearance.BorderSize = 0;
+            this.leftdoorbutton.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
+            this.leftdoorbutton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.leftdoorbutton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.leftdoorbutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.leftdoorbutton.ForeColor = System.Drawing.Color.Transparent;
+            this.leftdoorbutton.Location = new System.Drawing.Point(297, 191);
+            this.leftdoorbutton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.leftdoorbutton.Name = "leftdoorbutton";
+            this.leftdoorbutton.Size = new System.Drawing.Size(56, 19);
+            this.leftdoorbutton.TabIndex = 29;
+            this.leftdoorbutton.UseVisualStyleBackColor = false;
+            this.leftdoorbutton.Click += new System.EventHandler(this.leftdoorbutton_Click);
+            // 
+            // rightdoorbutton
+            // 
+            this.rightdoorbutton.BackColor = System.Drawing.Color.White;
+            this.rightdoorbutton.FlatAppearance.BorderSize = 0;
+            this.rightdoorbutton.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
+            this.rightdoorbutton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.rightdoorbutton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.rightdoorbutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rightdoorbutton.ForeColor = System.Drawing.Color.Transparent;
+            this.rightdoorbutton.Location = new System.Drawing.Point(404, 199);
+            this.rightdoorbutton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.rightdoorbutton.Name = "rightdoorbutton";
+            this.rightdoorbutton.Size = new System.Drawing.Size(56, 19);
+            this.rightdoorbutton.TabIndex = 30;
+            this.rightdoorbutton.UseVisualStyleBackColor = false;
+            this.rightdoorbutton.Click += new System.EventHandler(this.rightdoorbutton_Click);
+            // 
+            // gameoverlabel
+            // 
+            this.gameoverlabel.AutoSize = true;
+            this.gameoverlabel.BackColor = System.Drawing.Color.Transparent;
+            this.gameoverlabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gameoverlabel.ForeColor = System.Drawing.Color.Red;
+            this.gameoverlabel.Location = new System.Drawing.Point(382, 181);
+            this.gameoverlabel.Name = "gameoverlabel";
+            this.gameoverlabel.Size = new System.Drawing.Size(492, 108);
+            this.gameoverlabel.TabIndex = 31;
+            this.gameoverlabel.Text = "Gameover";
             // 
             // Game_screen
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
+            this.Controls.Add(this.gameoverlabel);
+            this.Controls.Add(this.rightdoorbutton);
+            this.Controls.Add(this.leftdoorbutton);
+            this.Controls.Add(this.rightlightbutton);
+            this.Controls.Add(this.leftlightbutton);
+            this.Controls.Add(this.test2);
+            this.Controls.Add(this.test1);
+            this.Controls.Add(this.cam7button);
+            this.Controls.Add(this.cam6button);
             this.Controls.Add(this.cam5button);
-            this.Controls.Add(this.cam2Bbutton);
-            this.Controls.Add(this.cam2Abutton);
-            this.Controls.Add(this.cam1Cbutton);
             this.Controls.Add(this.cam4Bbutton);
             this.Controls.Add(this.cam4Abutton);
             this.Controls.Add(this.cam3button);
-            this.Controls.Add(this.cam6button);
-            this.Controls.Add(this.cam7button);
+            this.Controls.Add(this.cam2Bbutton);
+            this.Controls.Add(this.cam2Abutton);
+            this.Controls.Add(this.cam1Cbutton);
             this.Controls.Add(this.cam1Bbutton);
             this.Controls.Add(this.cam1Abutton);
-            this.Controls.Add(this.rightsidelabel);
-            this.Controls.Add(this.leftsidelabel);
             this.Controls.Add(this.cameraButton);
             this.DoubleBuffered = true;
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Game_screen";
-            this.Size = new System.Drawing.Size(1034, 663);
+            this.Size = new System.Drawing.Size(776, 539);
             this.Paint += new System.Windows.Forms.PaintEventHandler(this.Game_screen_Paint);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -225,19 +407,24 @@
 
         private System.Windows.Forms.Button cameraButton;
         private System.Windows.Forms.Timer gameTimer;
-        private System.Windows.Forms.Label leftsidelabel;
-        private System.Windows.Forms.Label rightsidelabel;
         private System.Windows.Forms.Timer camflip;
-        private System.Windows.Forms.Label cam1Abutton;
-        private System.Windows.Forms.Label cam1Bbutton;
-        private System.Windows.Forms.Label cam7button;
-        private System.Windows.Forms.Label cam6button;
-        private System.Windows.Forms.Label cam3button;
-        private System.Windows.Forms.Label cam4Abutton;
-        private System.Windows.Forms.Label cam4Bbutton;
-        private System.Windows.Forms.Label cam1Cbutton;
-        private System.Windows.Forms.Label cam2Abutton;
-        private System.Windows.Forms.Label cam2Bbutton;
-        private System.Windows.Forms.Label cam5button;
+        private System.Windows.Forms.Button cam1Abutton;
+        private System.Windows.Forms.Button cam1Bbutton;
+        private System.Windows.Forms.Button cam1Cbutton;
+        private System.Windows.Forms.Button cam2Abutton;
+        private System.Windows.Forms.Button cam2Bbutton;
+        private System.Windows.Forms.Button cam3button;
+        private System.Windows.Forms.Button cam4Abutton;
+        private System.Windows.Forms.Button cam4Bbutton;
+        private System.Windows.Forms.Button cam5button;
+        private System.Windows.Forms.Button cam6button;
+        private System.Windows.Forms.Button cam7button;
+        private System.Windows.Forms.Label test1;
+        private System.Windows.Forms.Label test2;
+        private System.Windows.Forms.Button leftlightbutton;
+        private System.Windows.Forms.Button rightlightbutton;
+        private System.Windows.Forms.Button leftdoorbutton;
+        private System.Windows.Forms.Button rightdoorbutton;
+        private System.Windows.Forms.Label gameoverlabel;
     }
 }

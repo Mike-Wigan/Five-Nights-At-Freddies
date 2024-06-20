@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bonny.cs" />
     <Compile Include="camscreen.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -261,9 +262,6 @@
     <None Include="Resources\office freddie.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\office left light.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\office lights off.png" />
   </ItemGroup>
   <ItemGroup>
@@ -418,6 +416,375 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\7none.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\foxy running 3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\foxy running 4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\foxy running 5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\foxy running 6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\foxy running 7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\foxy running 8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\foxy running 9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\foxy running 10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\foxy running 11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\foxy running 12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\foxy running 13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\foxy running 14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\foxy running 15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\foxy running 16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\foxy running 17.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\foxy running 18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\foxy running 19.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\foxy running 20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\foxy running 21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\foxy running 22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\foxy running 23.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\foxy running 24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\foxy running 25.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\foxy running 26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\foxy running 27.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\foxy running 28.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\foxy running 29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\foxy running 30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\foxy running 31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\foxy running 32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\foxy running 33.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\foxy running 34.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\foxy running 35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leftdoorclosed - Copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leftlightanddoor - Copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leftlighton - Copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leftoff - Copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rightoff - Copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leftdoorclosed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leftlighton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leftoff.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rightdoorclosed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rightlightanddoor %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rightoff.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rightlighton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leftlightanddoor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leftdoor1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leftdoor2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leftdoor3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leftdoor4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leftdoor5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leftdoor6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leftdoor7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leftdoor8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leftdoor9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leftdoor10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leftdoor11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leftdoor12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leftdoor13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leftdoor14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rightdoor1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rightdoor2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rightdoor3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rightdoor4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rightdoor5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rightdoor6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rightdoor7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rightdoor8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rightdoor9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rightdoor10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rightdoor11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rightdoor12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rightdoor13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rightdoor14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\office left light.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bonnie jumpscare 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bonnie jumpscare 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bonnie jumpscare 3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bonnie jumpscare 4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bonnie jumpscare 5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bonnie jumpscare 6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bonnie jumpscare 7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bonnie jumpscare 8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bonnie jumpscare 9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bonnie jumpscare 10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bonnie jumpscare 11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chika animation 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chika animation 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chika animation 3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chika animation 4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chika animation 5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chika animation 6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chika animation 7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chika animation 8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chika animation 9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chika animation 10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chika animation 11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chika animation 12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chika animation 13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chika animation 14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chika animation 15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chika animation 16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\freddie scare 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\freddie scare 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\freddie scare 3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\freddie scare 4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\freddie scare 5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\freddie scare 6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\freddie scare 7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\freddie scare 8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\freddie scare 9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\freddie scare 10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\freddie scare 11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\freddie scare 12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\freddie scare 13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\freddie scare 14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\freddie scare 15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\freddie scare 16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\freddie scare 17.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\freddie scare 18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\freddie scare 19.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\freddie scare 20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\freddie scare 21.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -121,6 +121,39 @@
   <data name="backstage_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\backstage 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="bonnie_jumpscare_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bonnie jumpscare 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bonnie_jumpscare_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bonnie jumpscare 10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bonnie_jumpscare_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bonnie jumpscare 11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bonnie_jumpscare_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bonnie jumpscare 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bonnie_jumpscare_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bonnie jumpscare 3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bonnie_jumpscare_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bonnie jumpscare 4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bonnie_jumpscare_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bonnie jumpscare 5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bonnie_jumpscare_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bonnie jumpscare 6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bonnie_jumpscare_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bonnie jumpscare 7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bonnie_jumpscare_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bonnie jumpscare 8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bonnie_jumpscare_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bonnie jumpscare 9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="camerabuttonimage" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PC Computer - Five Nights at Freddys - Camera UI and HUD.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -166,6 +199,54 @@
   <data name="cam_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cam 7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="chika_animation_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chika animation 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chika_animation_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chika animation 10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chika_animation_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chika animation 11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chika_animation_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chika animation 12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chika_animation_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chika animation 13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chika_animation_14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chika animation 14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chika_animation_15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chika animation 15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chika_animation_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chika animation 16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chika_animation_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chika animation 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chika_animation_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chika animation 3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chika_animation_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chika animation 4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chika_animation_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chika animation 5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chika_animation_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chika animation 6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chika_animation_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chika animation 7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chika_animation_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chika animation 8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chika_animation_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chika animation 9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="fnaf_1_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fnaf 1 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -193,8 +274,224 @@
   <data name="fnaf_1_termination" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fnaf 1 termination.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="foxy_running_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\foxy running 10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="foxy_running_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\foxy running 11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="foxy_running_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\foxy running 12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="foxy_running_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\foxy running 13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="foxy_running_14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\foxy running 14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="foxy_running_15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\foxy running 15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="foxy_running_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\foxy running 16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="foxy_running_17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\foxy running 17.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="foxy_running_18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\foxy running 18.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="foxy_running_19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\foxy running 19.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="foxy_running_20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\foxy running 20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="foxy_running_21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\foxy running 21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="foxy_running_22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\foxy running 22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="foxy_running_23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\foxy running 23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="foxy_running_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\foxy running 24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="foxy_running_25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\foxy running 25.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="foxy_running_26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\foxy running 26.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="foxy_running_27" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\foxy running 27.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="foxy_running_28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\foxy running 28.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="foxy_running_29" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\foxy running 29.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="foxy_running_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\foxy running 3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="foxy_running_30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\foxy running 30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="foxy_running_31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\foxy running 31.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="foxy_running_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\foxy running 32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="foxy_running_33" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\foxy running 33.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="foxy_running_34" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\foxy running 34.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="foxy_running_35" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\foxy running 35.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="foxy_running_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\foxy running 4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="foxy_running_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\foxy running 5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="foxy_running_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\foxy running 6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="foxy_running_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\foxy running 7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="foxy_running_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\foxy running 8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="foxy_running_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\foxy running 9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="foxy_running_page" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\foxy running page.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="freddie_scare_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\freddie scare 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="freddie_scare_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\freddie scare 10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="freddie_scare_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\freddie scare 11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="freddie_scare_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\freddie scare 12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="freddie_scare_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\freddie scare 13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="freddie_scare_14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\freddie scare 14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="freddie_scare_15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\freddie scare 15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="freddie_scare_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\freddie scare 16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="freddie_scare_17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\freddie scare 17.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="freddie_scare_18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\freddie scare 18.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="freddie_scare_19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\freddie scare 19.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="freddie_scare_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\freddie scare 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="freddie_scare_20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\freddie scare 20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="freddie_scare_21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\freddie scare 21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="freddie_scare_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\freddie scare 3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="freddie_scare_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\freddie scare 4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="freddie_scare_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\freddie scare 5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="freddie_scare_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\freddie scare 6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="freddie_scare_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\freddie scare 7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="freddie_scare_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\freddie scare 8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="freddie_scare_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\freddie scare 9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="leftdoor1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\leftdoor1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="leftdoor10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\leftdoor10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="leftdoor11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\leftdoor11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="leftdoor12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\leftdoor12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="leftdoor13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\leftdoor13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="leftdoor14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\leftdoor14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="leftdoor2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\leftdoor2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="leftdoor3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\leftdoor3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="leftdoor4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\leftdoor4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="leftdoor5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\leftdoor5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="leftdoor6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\leftdoor6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="leftdoor7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\leftdoor7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="leftdoor8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\leftdoor8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="leftdoor9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\leftdoor9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="leftdoorclosed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\leftdoorclosed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="leftlightanddoor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\leftlightanddoor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="leftlighton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\leftlighton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="leftoff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\leftoff.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="office_bonnie" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\office bonnie.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -216,6 +513,60 @@
   </data>
   <data name="office_right_light" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\office right light.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rightdoor1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rightdoor1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rightdoor10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rightdoor10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rightdoor11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rightdoor11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rightdoor12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rightdoor12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rightdoor13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rightdoor13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rightdoor14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rightdoor14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rightdoor2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rightdoor2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rightdoor3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rightdoor3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rightdoor4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rightdoor4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rightdoor5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rightdoor5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rightdoor6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rightdoor6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rightdoor7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rightdoor7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rightdoor8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rightdoor8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rightdoor9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rightdoor9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rightdoorclosed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rightdoorclosed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rightlightanddoor__2_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rightlightanddoor (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rightlighton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rightlighton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rightoff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rightoff.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="static_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\luxa.org-opacity-changed-static 1 (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>

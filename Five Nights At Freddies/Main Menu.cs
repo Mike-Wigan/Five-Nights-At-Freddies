@@ -27,7 +27,7 @@ namespace Five_Nights_At_Freddies
         Bitmap fnaf3;
         Bitmap fnaf4;
 
-        Bitmap background;
+        Bitmap background = Properties.Resources.fnaf_1_1;
         Bitmap Static = Properties.Resources.static_1;
 
         int time = 30;
@@ -115,27 +115,27 @@ namespace Five_Nights_At_Freddies
             {
                 Static = Static1;
             }
-            else if (statictimer.ElapsedMilliseconds <= time * 2)
+            else if (statictimer.ElapsedMilliseconds <= time * 1.5)
             {
                 Static = Static2;
             }
-            else if (statictimer.ElapsedMilliseconds <= time * 3)
+            else if (statictimer.ElapsedMilliseconds <= time * 2)
             {
                 Static = Static3;
             }
-            else if (statictimer.ElapsedMilliseconds <= time * 4)
+            else if (statictimer.ElapsedMilliseconds <= time * 2.5)
             {
                 Static = Static4;
             }
-            else if (statictimer.ElapsedMilliseconds <= time * 5)
+            else if (statictimer.ElapsedMilliseconds <= time * 3)
             {
                 Static = Static5;
             }
-            else if (statictimer.ElapsedMilliseconds <= time * 6)
+            else if (statictimer.ElapsedMilliseconds <= time * 3.5)
             {
                 Static = Static6;
             }
-            else if (statictimer.ElapsedMilliseconds >= time * 7)
+            else if (statictimer.ElapsedMilliseconds >= time * 4)
             {
                 Static = Static7;
                 statictimer.Restart();
@@ -149,9 +149,8 @@ namespace Five_Nights_At_Freddies
         }
         private void Main_Menu_Paint(object sender, PaintEventArgs e)
         { 
-
+            e.Graphics.DrawImage(background, 0, 0);
             e.Graphics.DrawImage(Static, 0, 0);  
-            this.BackgroundImage = background;
         }
         private void Newgamebutton_MouseEnter(object sender, EventArgs e)
         {
