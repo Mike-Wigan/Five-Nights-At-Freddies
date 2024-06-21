@@ -74,6 +74,12 @@
     <Compile Include="Game screen.Designer.cs">
       <DependentUpon>Game screen.cs</DependentUpon>
     </Compile>
+    <Compile Include="loading screen.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="loading screen.Designer.cs">
+      <DependentUpon>loading screen.cs</DependentUpon>
+    </Compile>
     <Compile Include="Main Menu.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -90,6 +96,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Game screen.resx">
       <DependentUpon>Game screen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="loading screen.resx">
+      <DependentUpon>loading screen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Main Menu.resx">
       <DependentUpon>Main Menu.cs</DependentUpon>
