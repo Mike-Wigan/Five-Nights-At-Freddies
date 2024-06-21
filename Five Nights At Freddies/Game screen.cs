@@ -11,14 +11,16 @@ namespace Five_Nights_At_Freddies
         public static Stopwatch camtimer = new Stopwatch();
         public static Stopwatch leftdoortimer = new Stopwatch();
         public static Stopwatch rightdoortimer = new Stopwatch();
+
         Stopwatch stopwatch = new Stopwatch();
         Stopwatch bonnywatch = new Stopwatch();
+        Stopwatch chikawatch = new Stopwatch();
+        Stopwatch freddiewatch = new Stopwatch();
+        Stopwatch endwatch = new Stopwatch();
 
         Random random = new Random();
 
-        int clock = 40;
-
-        float Test1, Test2;
+        int clock = 60;
 
         bool camscreen;
         bool officescreen = true;
@@ -29,11 +31,12 @@ namespace Five_Nights_At_Freddies
         bool gameoverbool = false;
 
         int rand;
+        int counter = 1;
         int camnumber = 1;
         int click1, click2, click3, click4;
         int time = 30;
         int count = 1;
-        public static int bonny = 0, freddie = 1, chika = 1, foxie = 1;
+        public static int bonny = 1, freddie = 1, chika = 1, foxie = 1;
 
         Bitmap camflipimage = new Bitmap(Form1.cameraflipupimage1, new Size(Form1.sizex, Form1.sizey));
         Bitmap cambuttonimage = new Bitmap(Properties.Resources.camerabuttonimage, new Size(Form1.sizex / 3 * 2, Form1.sizey / 16 + Form1.sizey / 32));
@@ -63,6 +66,7 @@ namespace Five_Nights_At_Freddies
         }
         private void setup()
         {
+            gameoverlabel.Visible = false;
             leftlightbutton.BringToFront();
             rightlightbutton.BringToFront();
             leftdoorbutton.BringToFront();
@@ -371,7 +375,6 @@ namespace Five_Nights_At_Freddies
         {
             if (gameoverbool == false)
             {
-                test1.Text = count.ToString();
                 freddieobj.move(freddie);
                 chikaobj.move(chika);
                 bonnyobj.move(bonny);
@@ -930,6 +933,10 @@ namespace Five_Nights_At_Freddies
                 {
                     leftdoorimage = Form1.leftdoor14;
                 }
+                if (leftdoordown == true && bonny == 0)
+                {
+
+                }
                 #endregion
                 // set buttons
                 #region buttons
@@ -967,11 +974,9 @@ namespace Five_Nights_At_Freddies
                 }
                 #endregion
                 // gameover commands
-                #region gameover stuff
-
-                #endregion
             }
-            if (bonny == 0)
+            // animatronics animations
+            if (bonny == 0 && leftdoordown == false)
             {
                 bonnywatch.Start();
                 if (bonnywatch.ElapsedMilliseconds >= 3000 && count != 5)
@@ -1051,11 +1056,234 @@ namespace Five_Nights_At_Freddies
                 }
                 else if (count == 5)
                 {
-                    test2.Text = "boobies";
+                    bonny = 30;
                     gameover();
                 }
             }
-
+            else if (leftdoordown == true && bonny == 0)
+            {
+                bonny = 1;
+            }
+            if (chika == 0)
+            {
+                chikawatch.Start();
+                if (chikawatch.ElapsedMilliseconds >= 3000 && count != 3)
+                {
+                    stopwatch.Start();
+                    gameoverbool = true;
+                    if (stopwatch.ElapsedMilliseconds <= time)
+                    {
+                        background = Form1.chikascare1;
+                    }
+                    else if (stopwatch.ElapsedMilliseconds <= time * 2)
+                    {
+                        background = Form1.chikascare2;
+                    }
+                    else if (stopwatch.ElapsedMilliseconds <= time * 3)
+                    {
+                        background = Form1.chikascare3;
+                    }
+                    else if (stopwatch.ElapsedMilliseconds <= time * 4)
+                    {
+                        background = Form1.chikascare4;
+                    }
+                    else if (stopwatch.ElapsedMilliseconds <= time * 5)
+                    {
+                        background = Form1.chikascare5;
+                    }
+                    else if (stopwatch.ElapsedMilliseconds <= time * 6)
+                    {
+                        background = Form1.chikascare6;
+                    }
+                    else if (stopwatch.ElapsedMilliseconds <= time * 7)
+                    {
+                        background = Form1.chikascare7;
+                    }
+                    else if (stopwatch.ElapsedMilliseconds <= time * 8)
+                    {
+                        background = Form1.chikascare8;
+                    }
+                    else if (stopwatch.ElapsedMilliseconds <= time * 9)
+                    {
+                        background = Form1.chikascare9;
+                    }
+                    else if (stopwatch.ElapsedMilliseconds <= time * 10)
+                    {
+                        background = Form1.chikascare10;
+                    }
+                    else if (stopwatch.ElapsedMilliseconds <= time * 11)
+                    {
+                        background = Form1.chikascare11;
+                    }
+                    else if (stopwatch.ElapsedMilliseconds <= time * 12)
+                    {
+                        background = Form1.chikascare12;
+                    }
+                    else if (stopwatch.ElapsedMilliseconds <= time * 13)
+                    {
+                        background = Form1.chikascare13;
+                    }
+                    else if (stopwatch.ElapsedMilliseconds <= time * 14)
+                    {
+                        background = Form1.chikascare14;
+                    }
+                    else if (stopwatch.ElapsedMilliseconds <= time * 15)
+                    {
+                        background = Form1.chikascare15;
+                    }
+                    else if (stopwatch.ElapsedMilliseconds <= time * 16)
+                    {
+                        background = Form1.chikascare16;
+                        count++;
+                        stopwatch.Reset();
+                    }
+                }
+                else if (count == 3)
+                {
+                    chika = 30;
+                    gameover();
+                }
+            }
+            else if (rightdoordown == true && chika == 0)
+            {
+                bonny = 1;
+            }
+            if (freddie == 0)
+            {
+                freddiewatch.Start();
+                if (freddiewatch.ElapsedMilliseconds >= 3000 && count != 2)
+                {
+                    stopwatch.Start();
+                    gameoverbool = true;
+                    if (stopwatch.ElapsedMilliseconds <= time)
+                    {
+                        background = Form1.freddiescare1;
+                    }
+                    else if (stopwatch.ElapsedMilliseconds <= time * 2)
+                    {
+                        background = Form1.freddiescare2;
+                    }
+                    else if (stopwatch.ElapsedMilliseconds <= time * 3)
+                    {
+                        background = Form1.freddiescare3;
+                    }
+                    else if (stopwatch.ElapsedMilliseconds <= time * 4)
+                    {
+                        background = Form1.freddiescare4;
+                    }
+                    else if (stopwatch.ElapsedMilliseconds <= time * 5)
+                    {
+                        background = Form1.freddiescare5;
+                    }
+                    else if (stopwatch.ElapsedMilliseconds <= time * 6)
+                    {
+                        background = Form1.freddiescare6;
+                    }
+                    else if (stopwatch.ElapsedMilliseconds <= time * 7)
+                    {
+                        background = Form1.freddiescare7;
+                    }
+                    else if (stopwatch.ElapsedMilliseconds <= time * 8)
+                    {
+                        background = Form1.freddiescare8;
+                    }
+                    else if (stopwatch.ElapsedMilliseconds <= time * 9)
+                    {
+                        background = Form1.freddiescare9;
+                    }
+                    else if (stopwatch.ElapsedMilliseconds <= time * 10)
+                    {
+                        background = Form1.freddiescare10;
+                    }
+                    else if (stopwatch.ElapsedMilliseconds <= time * 11)
+                    {
+                        background = Form1.freddiescare11;
+                    }
+                    else if (stopwatch.ElapsedMilliseconds <= time * 12)
+                    {
+                        background = Form1.freddiescare12;
+                    }
+                    else if (stopwatch.ElapsedMilliseconds <= time * 13)
+                    {
+                        background = Form1.freddiescare13;
+                    }
+                    else if (stopwatch.ElapsedMilliseconds <= time * 14)
+                    {
+                        background = Form1.freddiescare14;
+                    }
+                    else if (stopwatch.ElapsedMilliseconds <= time * 15)
+                    {
+                        background = Form1.freddiescare15;
+                    }
+                    else if (stopwatch.ElapsedMilliseconds <= time * 16)
+                    {
+                        background = Form1.freddiescare16;
+                    }
+                    else if (stopwatch.ElapsedMilliseconds <= time * 17)
+                    {
+                        background = Form1.freddiescare17;
+                    }
+                    else if (stopwatch.ElapsedMilliseconds <= time * 18)
+                    {
+                        background = Form1.freddiescare18;
+                    }
+                    else if (stopwatch.ElapsedMilliseconds <= time * 19)
+                    {
+                        background = Form1.freddiescare19;
+                    }
+                    else if (stopwatch.ElapsedMilliseconds <= time * 20)
+                    {
+                        background = Form1.freddiescare20;
+                    }
+                    else if (stopwatch.ElapsedMilliseconds <= time * 21)
+                    {
+                        background = Form1.freddiescare21;
+                    }
+                    else if (stopwatch.ElapsedMilliseconds <= time * 22)
+                    {
+                        background = Form1.freddiescare22;
+                    }
+                    else if (stopwatch.ElapsedMilliseconds <= time * 23)
+                    {
+                        background = Form1.freddiescare23;
+                    }
+                    else if (stopwatch.ElapsedMilliseconds <= time * 24)
+                    {
+                        background = Form1.freddiescare24;
+                    }
+                    else if (stopwatch.ElapsedMilliseconds <= time * 25)
+                    {
+                        background = Form1.freddiescare25;
+                    }
+                    else if (stopwatch.ElapsedMilliseconds <= time * 26)
+                    {
+                        background = Form1.freddiescare26;
+                    }
+                    else if (stopwatch.ElapsedMilliseconds <= time * 27)
+                    {
+                        background = Form1.freddiescare27;
+                    }
+                    else if (stopwatch.ElapsedMilliseconds <= time * 28)
+                    {
+                        background = Form1.freddiescare28;
+                        count++;
+                        stopwatch.Reset();
+                    }
+                }
+                else if (count == 2)
+                {
+                    freddie = 30;
+                    gameover();
+                }
+            }
+            if (gameoverlabel.Visible == true)
+            {
+                endwatch.Start();
+                if (stopwatch.ElapsedMilliseconds <= 5000)
+                {
+                    Form1.ChangeScreen(this, new Main_Menu());
+                }
+            }
             Refresh();
         }
         private void cameraButton_MouseEnter(object sender, EventArgs e)
@@ -1099,6 +1327,7 @@ namespace Five_Nights_At_Freddies
         }
         private void gameover()
         {
+            gameoverlabel.Visible = true;
             cameraButton.Visible = false;
             cameraButton.Enabled = false;
             rightlightbutton.Visible = false;
@@ -1109,7 +1338,7 @@ namespace Five_Nights_At_Freddies
             leftlightbutton.Enabled = false;
             leftdoorbutton.Enabled = false;
             leftdoorbutton.Visible = false;
-            
+
             gameoverlabel.Visible = true;
             gameoverlabel.Location = new Point(Form1.sizex / 128 * 90, Form1.sizey / 128 * 110);
 

@@ -35,7 +35,7 @@ namespace Five_Nights_At_Freddies
                     }
                     else
                     {
-                        rand = random.Next(1, 1000000);
+                        rand = random.Next(1, 1000);
                     }
                 }
                 else if (_location == 2)
@@ -47,7 +47,7 @@ namespace Five_Nights_At_Freddies
                     }
                     else
                     {
-                        rand = random.Next(1, 100000);
+                        rand = random.Next(1, 1000);
                     }
                 }
                 else if (_location == 9)
@@ -59,7 +59,7 @@ namespace Five_Nights_At_Freddies
                     }
                     else
                     {
-                        rand = random.Next(1, 100000);
+                        rand = random.Next(1, 1000);
                     }
                 }
                 else if (_location == 6)
@@ -71,7 +71,7 @@ namespace Five_Nights_At_Freddies
                     }
                     else
                     {
-                        rand = random.Next(1, 100000);
+                        rand = random.Next(1, 1000);
                     }
                 }
                 else if (_location == 7)
@@ -83,7 +83,7 @@ namespace Five_Nights_At_Freddies
                     }
                     else
                     {
-                        rand = random.Next(1, 100000);
+                        rand = random.Next(1, 1000);
                     }
                 }
             }

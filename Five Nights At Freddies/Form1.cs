@@ -185,6 +185,35 @@ namespace Five_Nights_At_Freddies
         public static Bitmap chikascare15 = Properties.Resources.chika_animation_15;
         public static Bitmap chikascare16 = Properties.Resources.chika_animation_16;
 
+        public static Bitmap freddiescare1 = Properties.Resources.freddiescare_2_1;
+        public static Bitmap freddiescare2 = Properties.Resources.freddiescare_2_2;
+        public static Bitmap freddiescare3 = Properties.Resources.freddiescare_2_3;
+        public static Bitmap freddiescare4 = Properties.Resources.freddiescare_2_4;
+        public static Bitmap freddiescare5 = Properties.Resources.freddiescare_2_5;
+        public static Bitmap freddiescare6 = Properties.Resources.freddiescare_2_6;
+        public static Bitmap freddiescare7 = Properties.Resources.freddiescare_2_7;
+        public static Bitmap freddiescare8 = Properties.Resources.freddiescare_2_8;
+        public static Bitmap freddiescare9 = Properties.Resources.freddiescare_2_9;
+        public static Bitmap freddiescare10 = Properties.Resources.freddiescare_2_10;
+        public static Bitmap freddiescare11 = Properties.Resources.freddiescare_2_11;
+        public static Bitmap freddiescare12 = Properties.Resources.freddiescare_2_12;
+        public static Bitmap freddiescare13 = Properties.Resources.freddiescare_2_13;
+        public static Bitmap freddiescare14 = Properties.Resources.freddiescare_2_14;
+        public static Bitmap freddiescare15 = Properties.Resources.freddiescare_2_15;
+        public static Bitmap freddiescare16 = Properties.Resources.freddiescare_2_16;
+        public static Bitmap freddiescare17 = Properties.Resources.freddiescare_2_17;
+        public static Bitmap freddiescare18 = Properties.Resources.freddiescare_2_18;
+        public static Bitmap freddiescare19 = Properties.Resources.freddiescare_2_19;
+        public static Bitmap freddiescare20 = Properties.Resources.freddiescare_2_20;
+        public static Bitmap freddiescare21 = Properties.Resources.freddiescare_2_21;
+        public static Bitmap freddiescare22 = Properties.Resources.freddiescare_2_22;
+        public static Bitmap freddiescare23 = Properties.Resources.freddiescare_2_23;
+        public static Bitmap freddiescare24 = Properties.Resources.freddiescare_2_24;
+        public static Bitmap freddiescare25 = Properties.Resources.freddiescare_2_25;
+        public static Bitmap freddiescare26 = Properties.Resources.freddiescare_2_26;
+        public static Bitmap freddiescare27 = Properties.Resources.freddiescare_2_27;
+        public static Bitmap freddiescare28 = Properties.Resources.freddiescare_2_28;
+
         #endregion
         public Form1()
         {

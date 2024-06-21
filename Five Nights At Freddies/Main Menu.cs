@@ -15,20 +15,20 @@ namespace Five_Nights_At_Freddies
 
         Pen redpen = new Pen(Color.Red);
 
-        Bitmap Static1;
-        Bitmap Static2;
-        Bitmap Static3;
-        Bitmap Static4;
-        Bitmap Static5;
-        Bitmap Static6;
-        Bitmap Static7;
-        Bitmap fnaf1;
-        Bitmap fnaf2;
-        Bitmap fnaf3;
-        Bitmap fnaf4;
+        public static Bitmap Static1;
+        public static Bitmap Static2;
+        public static Bitmap Static3;
+        public static Bitmap Static4;
+        public static Bitmap Static5;
+        public static Bitmap Static6;
+        public static Bitmap Static7;
+        public static Bitmap fnaf1;
+        public static Bitmap fnaf2;
+        public static Bitmap fnaf3;
+        public static Bitmap fnaf4;
 
         Bitmap background = Properties.Resources.fnaf_1_1;
-        Bitmap Static = Properties.Resources.static_1;
+        public static Bitmap Static = Properties.Resources.static_1;
 
         int time = 30;
         int counter;

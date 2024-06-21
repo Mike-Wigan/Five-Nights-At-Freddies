@@ -43,8 +43,6 @@
             this.cam5button = new System.Windows.Forms.Button();
             this.cam6button = new System.Windows.Forms.Button();
             this.cam7button = new System.Windows.Forms.Button();
-            this.test1 = new System.Windows.Forms.Label();
-            this.test2 = new System.Windows.Forms.Label();
             this.leftlightbutton = new System.Windows.Forms.Button();
             this.rightlightbutton = new System.Windows.Forms.Button();
             this.leftdoorbutton = new System.Windows.Forms.Button();
@@ -85,7 +83,7 @@
             this.cam1Abutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cam1Abutton.Font = new System.Drawing.Font("Nirmala UI", 7.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cam1Abutton.Location = new System.Drawing.Point(168, 291);
-            this.cam1Abutton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cam1Abutton.Margin = new System.Windows.Forms.Padding(2);
             this.cam1Abutton.Name = "cam1Abutton";
             this.cam1Abutton.Size = new System.Drawing.Size(56, 19);
             this.cam1Abutton.TabIndex = 14;
@@ -102,7 +100,7 @@
             this.cam1Bbutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cam1Bbutton.Font = new System.Drawing.Font("Nirmala UI", 7.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cam1Bbutton.Location = new System.Drawing.Point(168, 354);
-            this.cam1Bbutton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cam1Bbutton.Margin = new System.Windows.Forms.Padding(2);
             this.cam1Bbutton.Name = "cam1Bbutton";
             this.cam1Bbutton.Size = new System.Drawing.Size(56, 19);
             this.cam1Bbutton.TabIndex = 15;
@@ -119,7 +117,7 @@
             this.cam1Cbutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cam1Cbutton.Font = new System.Drawing.Font("Nirmala UI", 7.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cam1Cbutton.Location = new System.Drawing.Point(168, 408);
-            this.cam1Cbutton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cam1Cbutton.Margin = new System.Windows.Forms.Padding(2);
             this.cam1Cbutton.Name = "cam1Cbutton";
             this.cam1Cbutton.Size = new System.Drawing.Size(56, 19);
             this.cam1Cbutton.TabIndex = 16;
@@ -136,7 +134,7 @@
             this.cam2Abutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cam2Abutton.Font = new System.Drawing.Font("Nirmala UI", 7.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cam2Abutton.Location = new System.Drawing.Point(287, 291);
-            this.cam2Abutton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cam2Abutton.Margin = new System.Windows.Forms.Padding(2);
             this.cam2Abutton.Name = "cam2Abutton";
             this.cam2Abutton.Size = new System.Drawing.Size(56, 19);
             this.cam2Abutton.TabIndex = 17;
@@ -153,7 +151,7 @@
             this.cam2Bbutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cam2Bbutton.Font = new System.Drawing.Font("Nirmala UI", 7.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cam2Bbutton.Location = new System.Drawing.Point(287, 354);
-            this.cam2Bbutton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cam2Bbutton.Margin = new System.Windows.Forms.Padding(2);
             this.cam2Bbutton.Name = "cam2Bbutton";
             this.cam2Bbutton.Size = new System.Drawing.Size(56, 19);
             this.cam2Bbutton.TabIndex = 18;
@@ -170,7 +168,7 @@
             this.cam3button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cam3button.Font = new System.Drawing.Font("Nirmala UI", 7.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cam3button.Location = new System.Drawing.Point(287, 408);
-            this.cam3button.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cam3button.Margin = new System.Windows.Forms.Padding(2);
             this.cam3button.Name = "cam3button";
             this.cam3button.Size = new System.Drawing.Size(56, 19);
             this.cam3button.TabIndex = 19;
@@ -187,7 +185,7 @@
             this.cam4Abutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cam4Abutton.Font = new System.Drawing.Font("Nirmala UI", 7.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cam4Abutton.Location = new System.Drawing.Point(400, 291);
-            this.cam4Abutton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cam4Abutton.Margin = new System.Windows.Forms.Padding(2);
             this.cam4Abutton.Name = "cam4Abutton";
             this.cam4Abutton.Size = new System.Drawing.Size(56, 19);
             this.cam4Abutton.TabIndex = 20;
@@ -204,7 +202,7 @@
             this.cam4Bbutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cam4Bbutton.Font = new System.Drawing.Font("Nirmala UI", 7.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cam4Bbutton.Location = new System.Drawing.Point(404, 354);
-            this.cam4Bbutton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cam4Bbutton.Margin = new System.Windows.Forms.Padding(2);
             this.cam4Bbutton.Name = "cam4Bbutton";
             this.cam4Bbutton.Size = new System.Drawing.Size(56, 19);
             this.cam4Bbutton.TabIndex = 21;
@@ -221,7 +219,7 @@
             this.cam5button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cam5button.Font = new System.Drawing.Font("Nirmala UI", 7.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cam5button.Location = new System.Drawing.Point(404, 408);
-            this.cam5button.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cam5button.Margin = new System.Windows.Forms.Padding(2);
             this.cam5button.Name = "cam5button";
             this.cam5button.Size = new System.Drawing.Size(56, 19);
             this.cam5button.TabIndex = 22;
@@ -238,7 +236,7 @@
             this.cam6button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cam6button.Font = new System.Drawing.Font("Nirmala UI", 7.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cam6button.Location = new System.Drawing.Point(502, 291);
-            this.cam6button.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cam6button.Margin = new System.Windows.Forms.Padding(2);
             this.cam6button.Name = "cam6button";
             this.cam6button.Size = new System.Drawing.Size(56, 19);
             this.cam6button.TabIndex = 23;
@@ -255,7 +253,7 @@
             this.cam7button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cam7button.Font = new System.Drawing.Font("Nirmala UI", 7.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cam7button.Location = new System.Drawing.Point(502, 352);
-            this.cam7button.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cam7button.Margin = new System.Windows.Forms.Padding(2);
             this.cam7button.Name = "cam7button";
             this.cam7button.Size = new System.Drawing.Size(56, 19);
             this.cam7button.TabIndex = 24;
@@ -263,32 +261,6 @@
             this.cam7button.TextAlign = System.Drawing.ContentAlignment.TopLeft;
             this.cam7button.UseVisualStyleBackColor = false;
             this.cam7button.Click += new System.EventHandler(this.cam7button_Click);
-            // 
-            // test1
-            // 
-            this.test1.AutoSize = true;
-            this.test1.BackColor = System.Drawing.Color.White;
-            this.test1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.test1.ForeColor = System.Drawing.Color.Red;
-            this.test1.Location = new System.Drawing.Point(256, 60);
-            this.test1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.test1.Name = "test1";
-            this.test1.Size = new System.Drawing.Size(70, 26);
-            this.test1.TabIndex = 25;
-            this.test1.Text = "label1";
-            // 
-            // test2
-            // 
-            this.test2.AutoSize = true;
-            this.test2.BackColor = System.Drawing.Color.White;
-            this.test2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.test2.ForeColor = System.Drawing.Color.Red;
-            this.test2.Location = new System.Drawing.Point(418, 60);
-            this.test2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.test2.Name = "test2";
-            this.test2.Size = new System.Drawing.Size(70, 26);
-            this.test2.TabIndex = 26;
-            this.test2.Text = "label2";
             // 
             // leftlightbutton
             // 
@@ -300,7 +272,7 @@
             this.leftlightbutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.leftlightbutton.ForeColor = System.Drawing.Color.Transparent;
             this.leftlightbutton.Location = new System.Drawing.Point(297, 145);
-            this.leftlightbutton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.leftlightbutton.Margin = new System.Windows.Forms.Padding(2);
             this.leftlightbutton.Name = "leftlightbutton";
             this.leftlightbutton.Size = new System.Drawing.Size(56, 19);
             this.leftlightbutton.TabIndex = 27;
@@ -317,7 +289,7 @@
             this.rightlightbutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.rightlightbutton.ForeColor = System.Drawing.Color.Transparent;
             this.rightlightbutton.Location = new System.Drawing.Point(404, 145);
-            this.rightlightbutton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.rightlightbutton.Margin = new System.Windows.Forms.Padding(2);
             this.rightlightbutton.Name = "rightlightbutton";
             this.rightlightbutton.Size = new System.Drawing.Size(56, 19);
             this.rightlightbutton.TabIndex = 28;
@@ -334,7 +306,7 @@
             this.leftdoorbutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.leftdoorbutton.ForeColor = System.Drawing.Color.Transparent;
             this.leftdoorbutton.Location = new System.Drawing.Point(297, 191);
-            this.leftdoorbutton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.leftdoorbutton.Margin = new System.Windows.Forms.Padding(2);
             this.leftdoorbutton.Name = "leftdoorbutton";
             this.leftdoorbutton.Size = new System.Drawing.Size(56, 19);
             this.leftdoorbutton.TabIndex = 29;
@@ -351,7 +323,7 @@
             this.rightdoorbutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.rightdoorbutton.ForeColor = System.Drawing.Color.Transparent;
             this.rightdoorbutton.Location = new System.Drawing.Point(404, 199);
-            this.rightdoorbutton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.rightdoorbutton.Margin = new System.Windows.Forms.Padding(2);
             this.rightdoorbutton.Name = "rightdoorbutton";
             this.rightdoorbutton.Size = new System.Drawing.Size(56, 19);
             this.rightdoorbutton.TabIndex = 30;
@@ -380,8 +352,6 @@
             this.Controls.Add(this.leftdoorbutton);
             this.Controls.Add(this.rightlightbutton);
             this.Controls.Add(this.leftlightbutton);
-            this.Controls.Add(this.test2);
-            this.Controls.Add(this.test1);
             this.Controls.Add(this.cam7button);
             this.Controls.Add(this.cam6button);
             this.Controls.Add(this.cam5button);
@@ -419,8 +389,6 @@
         private System.Windows.Forms.Button cam5button;
         private System.Windows.Forms.Button cam6button;
         private System.Windows.Forms.Button cam7button;
-        private System.Windows.Forms.Label test1;
-        private System.Windows.Forms.Label test2;
         private System.Windows.Forms.Button leftlightbutton;
         private System.Windows.Forms.Button rightlightbutton;
         private System.Windows.Forms.Button leftdoorbutton;

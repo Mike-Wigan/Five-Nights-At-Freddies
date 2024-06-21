@@ -373,8 +373,89 @@
   <data name="foxy_running_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\foxy running 9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="foxy_running_page" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\foxy running page.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="freddiescare_2_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\freddiescare 2 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="freddiescare_2_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\freddiescare 2 10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="freddiescare_2_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\freddiescare 2 11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="freddiescare_2_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\freddiescare 2 12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="freddiescare_2_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\freddiescare 2 13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="freddiescare_2_14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\freddiescare 2 14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="freddiescare_2_15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\freddiescare 2 15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="freddiescare_2_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\freddiescare 2 16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="freddiescare_2_17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\freddiescare 2 17.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="freddiescare_2_18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\freddiescare 2 18.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="freddiescare_2_19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\freddiescare 2 19.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="freddiescare_2_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\freddiescare 2 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="freddiescare_2_20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\freddiescare 2 20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="freddiescare_2_21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\freddiescare 2 21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="freddiescare_2_22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\freddiescare 2 22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="freddiescare_2_23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\freddiescare 2 23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="freddiescare_2_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\freddiescare 2 24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="freddiescare_2_25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\freddiescare 2 25.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="freddiescare_2_26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\freddiescare 2 26.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="freddiescare_2_27" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\freddiescare 2 27.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="freddiescare_2_28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\freddiescare 2 28.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="freddiescare_2_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\freddiescare 2 3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="freddiescare_2_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\freddiescare 2 4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="freddiescare_2_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\freddiescare 2 5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="freddiescare_2_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\freddiescare 2 6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="freddiescare_2_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\freddiescare 2 7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="freddiescare_2_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\freddiescare 2 8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="freddiescare_2_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\freddiescare 2 9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="freddie_scare_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\freddie scare 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
