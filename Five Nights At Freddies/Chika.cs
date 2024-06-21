@@ -71,7 +71,7 @@ namespace Five_Nights_At_Freddies
             }
             else if (_location == 6)
             {
-                if (rand == 4)
+                if (rand == 5)
                 {
                     Game_screen.chika = 7;
                     return;
@@ -81,11 +81,19 @@ namespace Five_Nights_At_Freddies
                     rand = random.Next(1, 500);
                 }
             }
-            if (rand == 7)
+            else if (_location == 7)
             {
-                Game_screen.chika = 0;
-                return;
+                if (rand == 6)
+                {
+                    Game_screen.chika = 0;
+                    return;
+                }
+                else
+                {
+                    rand = random.Next(1, 500);
+                }
             }
+
             else
             {
                 rand = random.Next(1, 500);

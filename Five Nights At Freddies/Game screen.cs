@@ -11,36 +11,37 @@ namespace Five_Nights_At_Freddies
         public static Stopwatch camtimer = new Stopwatch();
         public static Stopwatch leftdoortimer = new Stopwatch();
         public static Stopwatch rightdoortimer = new Stopwatch();
+        Stopwatch gamewatch = new Stopwatch();
 
         Stopwatch stopwatch = new Stopwatch();
         Stopwatch bonnywatch = new Stopwatch();
         Stopwatch chikawatch = new Stopwatch();
         Stopwatch freddiewatch = new Stopwatch();
-        Stopwatch endwatch = new Stopwatch();
 
         Random random = new Random();
 
         int clock = 60;
 
-        bool camscreen;
+        bool camscreen = false;
+        bool win = false;
         bool officescreen = true;
-        bool camright;
+        bool camright = false;
         bool rightlight = false, leftlight = false, leftdoor = false, rightdoor = false;
         bool rightdoordown = false;
         bool leftdoordown = false;
-        bool gameoverbool = false;
+        public static bool gameoverbool = false;
 
         int rand;
         int counter = 1;
         int camnumber = 1;
-        int click1, click2, click3, click4;
+        int click1 = 1, click2 = 1, click3 = 1, click4 = 1;
         int time = 30;
         int count = 1;
         public static int bonny = 1, freddie = 1, chika = 1, foxie = 1;
 
         Bitmap camflipimage = new Bitmap(Form1.cameraflipupimage1, new Size(Form1.sizex, Form1.sizey));
         Bitmap cambuttonimage = new Bitmap(Properties.Resources.camerabuttonimage, new Size(Form1.sizex / 3 * 2, Form1.sizey / 16 + Form1.sizey / 32));
-        public static Bitmap background = new Bitmap(Properties.Resources.office_empty, new Size(Form1.sizex, Form1.sizey));
+        public static Bitmap background = new Bitmap(Form1.office, new Size(Form1.sizex, Form1.sizey));
         Bitmap leftbutton = Form1.leftbuttonsoff;
         Bitmap rightbutton = Form1.rightbuttonsoff;
         Bitmap rightdoorimage = Form1.rightdoor1;
@@ -63,6 +64,9 @@ namespace Five_Nights_At_Freddies
         {
             InitializeComponent();
             setup();
+            Form1.screen = "game screen";
+            gamewatch.Start();
+            timerlabel.Location = new Point(Form1.sizex - timerlabel.Width, 0);
         }
         private void setup()
         {
@@ -79,6 +83,7 @@ namespace Five_Nights_At_Freddies
             cameraButton.Size = new System.Drawing.Size(Form1.sizex / 3 * 2, Form1.sizey / 16 + Form1.sizey / 32);
             cameraButton.Location = new System.Drawing.Point(Form1.sizex / 16 * 3, Form1.sizey - cameraButton.Height);
             cameraButton.Enabled = true;
+            Form1.cheque = new Bitmap(Form1.cheque, new Size(Form1.sizex, Form1.sizey));
 
             cameraButton.BringToFront();
 
@@ -373,6 +378,7 @@ namespace Five_Nights_At_Freddies
         }
         private void gameTimer_Tick(object sender, EventArgs e)
         {
+            timerlabel.Text = gamewatch.ElapsedMilliseconds.ToString();
             if (gameoverbool == false)
             {
                 freddieobj.move(freddie);
@@ -976,6 +982,7 @@ namespace Five_Nights_At_Freddies
                 // gameover commands
             }
             // animatronics animations
+            #region animatronics animations
             if (bonny == 0 && leftdoordown == false)
             {
                 bonnywatch.Start();
@@ -1057,6 +1064,7 @@ namespace Five_Nights_At_Freddies
                 else if (count == 5)
                 {
                     bonny = 30;
+                    gameoverbool = true;
                     gameover();
                 }
             }
@@ -1064,7 +1072,7 @@ namespace Five_Nights_At_Freddies
             {
                 bonny = 1;
             }
-            if (chika == 0)
+            if (chika == 0 && rightdoordown == false)
             {
                 chikawatch.Start();
                 if (chikawatch.ElapsedMilliseconds >= 3000 && count != 3)
@@ -1141,14 +1149,16 @@ namespace Five_Nights_At_Freddies
                 else if (count == 3)
                 {
                     chika = 30;
+                    gameoverbool = true;
                     gameover();
+
                 }
             }
             else if (rightdoordown == true && chika == 0)
             {
-                bonny = 1;
+                chika = 1;
             }
-            if (freddie == 0)
+            if (freddie == 0 && rightdoordown == false)
             {
                 freddiewatch.Start();
                 if (freddiewatch.ElapsedMilliseconds >= 3000 && count != 2)
@@ -1273,17 +1283,28 @@ namespace Five_Nights_At_Freddies
                 else if (count == 2)
                 {
                     freddie = 30;
+                    gameoverbool = true;
                     gameover();
                 }
             }
+            else if (rightdoordown == true && freddie == 0)
+            {
+                freddie = 1;
+            }
             if (gameoverlabel.Visible == true)
             {
-                endwatch.Start();
                 if (stopwatch.ElapsedMilliseconds <= 5000)
                 {
-                    Form1.ChangeScreen(this, new Main_Menu());
+                    Form1.ChangeScreen(this, new loading_screen());
+                    gameTimer.Stop();
                 }
             }
+            if (gamewatch.ElapsedMilliseconds >= 300000)
+            {
+                gameoverbool = true;
+                gameover();
+            }
+            #endregion
             Refresh();
         }
         private void cameraButton_MouseEnter(object sender, EventArgs e)
@@ -1338,11 +1359,16 @@ namespace Five_Nights_At_Freddies
             leftlightbutton.Enabled = false;
             leftdoorbutton.Enabled = false;
             leftdoorbutton.Visible = false;
-
-            gameoverlabel.Visible = true;
             gameoverlabel.Location = new Point(Form1.sizex / 128 * 90, Form1.sizey / 128 * 110);
-
-            background = Form1.deathscreen;
+            if (win == false)
+            {
+                background = Form1.deathscreen;
+                gameoverlabel.Visible = true;
+            }
+            else
+            {
+                background = Form1.cheque;
+            }
         }
 
         private void leftlightbutton_Click(object sender, EventArgs e)

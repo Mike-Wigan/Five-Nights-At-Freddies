@@ -86,6 +86,10 @@ namespace Five_Nights_At_Freddies
                         rand = random.Next(1, 1000);
                     }
                 }
+                else
+                {
+                    rand = random.Next(1, 500);
+                }
             }
         }
     }

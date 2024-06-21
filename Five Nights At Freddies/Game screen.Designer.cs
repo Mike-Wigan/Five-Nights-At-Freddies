@@ -48,6 +48,7 @@
             this.leftdoorbutton = new System.Windows.Forms.Button();
             this.rightdoorbutton = new System.Windows.Forms.Button();
             this.gameoverlabel = new System.Windows.Forms.Label();
+            this.timerlabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // gameTimer
@@ -342,11 +343,24 @@
             this.gameoverlabel.TabIndex = 31;
             this.gameoverlabel.Text = "Gameover";
             // 
+            // timerlabel
+            // 
+            this.timerlabel.BackColor = System.Drawing.Color.Transparent;
+            this.timerlabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.timerlabel.ForeColor = System.Drawing.Color.White;
+            this.timerlabel.Location = new System.Drawing.Point(428, 67);
+            this.timerlabel.Name = "timerlabel";
+            this.timerlabel.Size = new System.Drawing.Size(153, 23);
+            this.timerlabel.TabIndex = 32;
+            this.timerlabel.Text = "label1";
+            this.timerlabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
             // Game_screen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
+            this.Controls.Add(this.timerlabel);
             this.Controls.Add(this.gameoverlabel);
             this.Controls.Add(this.rightdoorbutton);
             this.Controls.Add(this.leftdoorbutton);
@@ -394,5 +408,6 @@
         private System.Windows.Forms.Button leftdoorbutton;
         private System.Windows.Forms.Button rightdoorbutton;
         private System.Windows.Forms.Label gameoverlabel;
+        private System.Windows.Forms.Label timerlabel;
     }
 }

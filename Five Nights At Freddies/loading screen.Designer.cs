@@ -28,18 +28,30 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
+            this.pausetimer = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
+            // 
+            // pausetimer
+            // 
+            this.pausetimer.Enabled = true;
+            this.pausetimer.Interval = 20;
+            this.pausetimer.Tick += new System.EventHandler(this.pausetimer_Tick);
             // 
             // loading_screen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.DoubleBuffered = true;
             this.Name = "loading_screen";
             this.Size = new System.Drawing.Size(360, 329);
+            this.Paint += new System.Windows.Forms.PaintEventHandler(this.loading_screen_Paint);
             this.ResumeLayout(false);
 
         }
 
         #endregion
+
+        private System.Windows.Forms.Timer pausetimer;
     }
 }

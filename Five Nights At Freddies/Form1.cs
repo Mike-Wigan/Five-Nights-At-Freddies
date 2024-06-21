@@ -11,8 +11,13 @@ namespace Five_Nights_At_Freddies
     {
         #region delering stuff
         public static int sizex, sizey;
+        public static string screen;
 
         public static Bitmap deathscreen = Properties.Resources.fnaf_1_death;
+        public static Bitmap cheque = Properties.Resources.fnaf_1_cheque_1;
+        public static Bitmap cheque2 = Properties.Resources.fnaf_1_cheque_2;
+        public static Bitmap paper = Properties.Resources.fnaf_1_paper;
+
         public static Bitmap cammap = Properties.Resources.cammap;
         public static Bitmap mainmenu1 = Properties.Resources.fnaf_1_1;
         public static Bitmap mainmenu2 = Properties.Resources.fnaf_1_2;

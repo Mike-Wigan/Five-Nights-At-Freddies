@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Diagnostics;
 using System.Drawing;
+using System.Threading;
 using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.TrayNotify;
 
@@ -37,6 +38,8 @@ namespace Five_Nights_At_Freddies
         {
             InitializeComponent();
 
+            Game_screen.gameoverbool = false;
+            Form1.screen = "main menu";
             label1.Location = new Point(Form1.sizex / 15, Form1.sizey / 8);
 
             Newgamebutton.Text = $"New Game";
@@ -70,7 +73,8 @@ namespace Five_Nights_At_Freddies
         }
         private void Newgamebutton_Click(object sender, EventArgs e)
         {
-            Form1.ChangeScreen(this, new Game_screen());
+            Thread.Sleep(500);
+            Form1.ChangeScreen(this, new loading_screen());
         }
         private void Continuebutton_Click(object sender, EventArgs e)
         {
