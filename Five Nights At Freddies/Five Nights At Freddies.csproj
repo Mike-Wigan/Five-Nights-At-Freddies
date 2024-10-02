@@ -879,5 +879,8 @@
   <ItemGroup>
     <None Include="Resources\freddiescare 2 7.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="XMLFile1.xml" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

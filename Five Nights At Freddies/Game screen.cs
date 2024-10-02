@@ -13,6 +13,9 @@ namespace Five_Nights_At_Freddies
         public static Stopwatch rightdoortimer = new Stopwatch();
         Stopwatch gamewatch = new Stopwatch();
 
+
+        Stopwatch opencamwatch = new Stopwatch();
+        Stopwatch staticwatch = new Stopwatch();
         Stopwatch stopwatch = new Stopwatch();
         Stopwatch bonnywatch = new Stopwatch();
         Stopwatch chikawatch = new Stopwatch();
@@ -21,9 +24,10 @@ namespace Five_Nights_At_Freddies
         Random random = new Random();
 
         int clock = 60;
+        public static int night;
 
         bool camscreen = false;
-        bool win = false;
+        public static bool win = false;
         bool officescreen = true;
         bool camright = false;
         bool rightlight = false, leftlight = false, leftdoor = false, rightdoor = false;
@@ -67,6 +71,8 @@ namespace Five_Nights_At_Freddies
             Form1.screen = "game screen";
             gamewatch.Start();
             timerlabel.Location = new Point(Form1.sizex - timerlabel.Width, 0);
+
+            //Properties.Settings.Default.Night = night;
         }
         private void setup()
         {
@@ -147,6 +153,10 @@ namespace Five_Nights_At_Freddies
             cam6button.ForeColor = Color.White;
             cam7button.ForeColor = Color.White;
 
+            rightlightbutton.BackColor = Color.White;
+            rightdoorbutton.BackColor = Color.White;
+            leftlightbutton.BackColor = Color.White;
+            leftdoorbutton.BackColor = Color.White;
 
             #region images
             Form1.mainmenu1 = new Bitmap(Properties.Resources.fnaf_1_1, new Size(Form1.sizex * 4 / 3, Form1.sizey));
@@ -246,21 +256,21 @@ namespace Five_Nights_At_Freddies
             Form1.rightdoor13 = new Bitmap(Form1.rightdoor13, new Size(Form1.sizex / 6, Form1.sizey));
             Form1.rightdoor14 = new Bitmap(Form1.rightdoor14, new Size(Form1.sizex / 6, Form1.sizey));
 
-            leftlightbutton.Location = new Point(Form1.sizex / 256 * 6, Form1.sizey / 512 * 300);
+            leftlightbutton.Location = new Point(Form1.sizex / 256 * 6, Form1.sizey / 512 * 450);
             leftdoorbutton.Size = new Size(leftbuttonrec.Width / 128 * 82, leftbutton.Height / 128 * 78);
             leftlightbutton.Size = new Size(leftbuttonrec.Width / 128 * 82, leftbutton.Height / 128 * 78);
-            leftdoorbutton.Location = new Point(Form1.sizex / 256 * 6, Form1.sizey / 512 * 239);
-            leftlightbutton.BackColor = Color.Transparent;
-            leftdoorbutton.BackColor = Color.Transparent;
+            leftdoorbutton.Location = new Point(Form1.sizex / 256 * 6, Form1.sizey / 512 * 350);
+            //leftlightbutton.BackColor = Color.White;
+            //leftdoorbutton.BackColor = Color.White;
             leftlightbutton.Enabled = true;
             leftdoorbutton.Enabled = true;
 
-            rightlightbutton.Location = new Point(Form1.sizex / 256 * 255, Form1.sizey / 512 * 298);
+            rightlightbutton.Location = new Point(Form1.sizex / 256 * 237, Form1.sizey / 512 * 450);
             rightdoorbutton.Size = new Size(leftbuttonrec.Width / 128 * 82, leftbutton.Height / 128 * 78);
             rightlightbutton.Size = new Size(leftbuttonrec.Width / 128 * 82, leftbutton.Height / 128 * 78);
-            rightdoorbutton.Location = new Point(Form1.sizex / 256 * 255, Form1.sizey / 512 * 239);
-            rightlightbutton.BackColor = Color.Transparent;
-            rightdoorbutton.BackColor = Color.Transparent;
+            rightdoorbutton.Location = new Point(Form1.sizex / 256 * 237, Form1.sizey / 512 * 350);
+            //rightlightbutton.BackColor = Color.White;
+            //rightdoorbutton.BackColor = Color.White;
             rightlightbutton.Enabled = true;
             rightdoorbutton.Enabled = true;
             #endregion
@@ -378,14 +388,35 @@ namespace Five_Nights_At_Freddies
         }
         private void gameTimer_Tick(object sender, EventArgs e)
         {
-            timerlabel.Text = gamewatch.ElapsedMilliseconds.ToString();
             if (gameoverbool == false)
             {
-                freddieobj.move(freddie);
-                chikaobj.move(chika);
-                bonnyobj.move(bonny);
+                freddieobj.move(freddie, night);
+                chikaobj.move(chika, night);
+                bonnyobj.move(bonny, night);
 
                 #region move background
+                if (leftbuttonrec.X + leftbuttonrec.Width <= leftlightbutton.Location.X)
+                {
+                    leftlightbutton.Enabled = false;
+                    leftdoorbutton.Enabled = false;
+
+                }
+                else
+                {
+                    leftlightbutton.Enabled = true;
+                    leftdoorbutton.Enabled = true;
+                }
+                if (rightbuttonrec.X >= rightlightbutton.Location.X)
+                {
+                    rightlightbutton.Enabled = false;
+                    rightdoorbutton.Enabled = false;
+
+                }
+                else
+                {
+                    rightlightbutton.Enabled = true;
+                    rightdoorbutton.Enabled = true;
+                }
                 if (officescreen == true)
                 {
                     if (MousePosition.X > Form1.sizex / 2 + Form1.sizex / 16 && backrec.X + backrec.Width > this.Width)
@@ -634,11 +665,12 @@ namespace Five_Nights_At_Freddies
                             }
                             else
                             {
-
                                 camera = Properties.Resources.foxy_running_3;
                             }
                             break;
                         case 11:
+                            camera = Properties.Resources.camflip_11;
+
                             //play audio
                             break;
                     }
@@ -1061,9 +1093,10 @@ namespace Five_Nights_At_Freddies
                         stopwatch.Reset();
                     }
                 }
-                else if (count == 5)
+                else if (count == 4)
                 {
                     bonny = 30;
+                    win = false;
                     gameoverbool = true;
                     gameover();
                 }
@@ -1148,8 +1181,9 @@ namespace Five_Nights_At_Freddies
                 }
                 else if (count == 3)
                 {
-                    chika = 30;
+                    win = false;
                     gameoverbool = true;
+                    chika = 30;
                     gameover();
 
                 }
@@ -1283,6 +1317,7 @@ namespace Five_Nights_At_Freddies
                 else if (count == 2)
                 {
                     freddie = 30;
+                    win = false;
                     gameoverbool = true;
                     gameover();
                 }
@@ -1291,24 +1326,30 @@ namespace Five_Nights_At_Freddies
             {
                 freddie = 1;
             }
-            if (gameoverlabel.Visible == true)
+            if (gameoverlabel.Visible == true && stopwatch.ElapsedMilliseconds <= 5000)
             {
-                if (stopwatch.ElapsedMilliseconds <= 5000)
-                {
-                    Form1.ChangeScreen(this, new loading_screen());
-                    gameTimer.Stop();
-                }
+                //Form1.ChangeScreen(this, new loading_screen());
+                gameTimer.Stop();
             }
             if (gamewatch.ElapsedMilliseconds >= 300000)
             {
                 gameoverbool = true;
+                win = true;
                 gameover();
+            }
+            else if (gamewatch.ElapsedMilliseconds <= 300000 && win == false)
+            {
+                gamewatch.Reset();
             }
             #endregion
             Refresh();
         }
         private void cameraButton_MouseEnter(object sender, EventArgs e)
         {
+            //while (MousePosition)
+            //{
+
+            //}
             camflip.Start();
             camtimer.Start();
         }
@@ -1365,9 +1406,10 @@ namespace Five_Nights_At_Freddies
                 background = Form1.deathscreen;
                 gameoverlabel.Visible = true;
             }
-            else
+            else if (win == true)
             {
                 background = Form1.cheque;
+                Properties.Settings.Default.Night++;
             }
         }
 
@@ -1435,6 +1477,7 @@ namespace Five_Nights_At_Freddies
         }
         private void cam1Bbutton_Click(object sender, EventArgs e)
         {
+            cam1Abutton.BackColor = Color.Green;
             camnumber = 2;
         }
         private void cam1Cbutton_Click(object sender, EventArgs e)
@@ -1467,7 +1510,7 @@ namespace Five_Nights_At_Freddies
         }
         private void cam6button_Click(object sender, EventArgs e)
         {
-
+            camnumber = 11;
         }
         private void cam7button_Click(object sender, EventArgs e)
         {

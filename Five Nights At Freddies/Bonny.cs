@@ -28,7 +28,7 @@ namespace Five_Nights_At_Freddies
             // 9 = 7
             // 10 = 2A
         }
-        public void move(int _location)
+        public void move(int _location, int difficulty)
         {
             if (_location == 1)
             {

@@ -38,6 +38,13 @@ namespace Five_Nights_At_Freddies
         {
             InitializeComponent();
 
+            if (Properties.Settings.Default.Night == 0)
+            {
+                Properties.Settings.Default.Night = 1;
+            }
+
+            Game_screen.night = Properties.Settings.Default.Night;
+
             Game_screen.gameoverbool = false;
             Form1.screen = "main menu";
             label1.Location = new Point(Form1.sizex / 15, Form1.sizey / 8);
@@ -74,11 +81,13 @@ namespace Five_Nights_At_Freddies
         private void Newgamebutton_Click(object sender, EventArgs e)
         {
             Thread.Sleep(500);
+            Properties.Settings.Default.Night = 1;
             Form1.ChangeScreen(this, new loading_screen());
         }
         private void Continuebutton_Click(object sender, EventArgs e)
         {
-            //take xml files idk how to yet later project
+            Thread.Sleep(500);
+            Form1.ChangeScreen(this, new loading_screen());
         }
         private void GameTimer_Tick(object sender, EventArgs e)
         {
@@ -162,7 +171,10 @@ namespace Five_Nights_At_Freddies
         }
         private void Continuebutton_MouseEnter(object sender, EventArgs e)
         {
-            Continuebutton.Text = "> continue";
+            if (Game_screen.night != 1)
+            {
+                Continuebutton.Text = "> continue";
+            }
         }
         private void Newgamebutton_MouseLeave(object sender, EventArgs e)
         {
@@ -170,7 +182,10 @@ namespace Five_Nights_At_Freddies
         }
         private void Continuebutton_MouseLeave(object sender, EventArgs e)
         {
-            Continuebutton.Text = "continue";
+            if (Game_screen.night != 1)
+            {
+                Continuebutton.Text = "continue";
+            }
         }
     }
 }

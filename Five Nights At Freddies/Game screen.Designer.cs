@@ -49,6 +49,7 @@
             this.rightdoorbutton = new System.Windows.Forms.Button();
             this.gameoverlabel = new System.Windows.Forms.Label();
             this.timerlabel = new System.Windows.Forms.Label();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.SuspendLayout();
             // 
             // gameTimer
@@ -355,6 +356,11 @@
             this.timerlabel.Text = "label1";
             this.timerlabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
+            // 
             // Game_screen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -380,7 +386,7 @@
             this.Controls.Add(this.cameraButton);
             this.DoubleBuffered = true;
             this.Name = "Game_screen";
-            this.Size = new System.Drawing.Size(776, 539);
+            this.Size = new System.Drawing.Size(1012, 715);
             this.Paint += new System.Windows.Forms.PaintEventHandler(this.Game_screen_Paint);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -409,5 +415,6 @@
         private System.Windows.Forms.Button rightdoorbutton;
         private System.Windows.Forms.Label gameoverlabel;
         private System.Windows.Forms.Label timerlabel;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
     }
 }

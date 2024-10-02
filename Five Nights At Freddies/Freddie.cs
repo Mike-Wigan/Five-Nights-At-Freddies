@@ -11,6 +11,8 @@ namespace Five_Nights_At_Freddies
     {
         Random random = new Random();
         
+
+
         public static int rand;
         // 1 = 1A
         // 2 = 1B
@@ -22,7 +24,7 @@ namespace Five_Nights_At_Freddies
         // 8 = 5
         // 9 = 7
         // 10 = 2A
-        public void move(int _location)
+        public void move(int _location, int difficulty)
         {
             if (Game_screen.chika != 1 && Game_screen.bonny != 1)
             {

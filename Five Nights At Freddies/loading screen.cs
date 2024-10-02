@@ -22,7 +22,7 @@ namespace Five_Nights_At_Freddies
 
         private void pausetimer_Tick(object sender, EventArgs e)
         {
-            if (Game_screen.gameoverbool == true)
+            if (Game_screen.gameoverbool == true && Game_screen.win == true)
             {
                 this.BackgroundImage = Form1.cheque;
             }
